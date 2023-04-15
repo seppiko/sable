@@ -2,8 +2,8 @@
 
 == Sable Normalize
 
-link:https://cdn.jsdelivr.net/gh/seppiko/sable/sable-normalize.css[sable-normalize.css]
-link:https://cdn.jsdelivr.net/gh/seppiko/sable/sable-normalize.min.css[sable-normalize.min.css]
+link:https://cdn.jsdelivr.net/gh/seppiko/sable@main/sable-normalize.css[sable-normalize.css]
+link:https://cdn.jsdelivr.net/gh/seppiko/sable@main/sable-normalize.min.css[sable-normalize.min.css]
 
 == Source Code
 
