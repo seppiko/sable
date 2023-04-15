@@ -1,5 +1,10 @@
 = Seppiko Sable Release for CDN
 
+== Sable Normalize
+
+link: https://cdn.jsdelivr.net/gh/seppiko/sable/sable-normalize.css[sable-normalize.css]
+link: https://cdn.jsdelivr.net/gh/seppiko/sable/sable-normalize.min.css[sable-normalize.min.css]
+
 == Source Code
 
 link: https://gitlab.com/seppiko/sable[GitLab]
