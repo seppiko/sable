@@ -1,0 +1,5 @@
+= Seppiko Sable Release for CDN
+
+== Source Code
+
+link: https://gitlab.com/seppiko/sable[GitLab]
