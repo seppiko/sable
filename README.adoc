@@ -1,8 +1,11 @@
 = Seppiko Sable Release for CDN
 
-== Sable Normalize
+image:https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square[MIT License]
+
+== Seppiko Sable Normalize
 
 link:https://cdn.jsdelivr.net/gh/seppiko/sable@main/sable-normalize.css[sable-normalize.css]
+
 link:https://cdn.jsdelivr.net/gh/seppiko/sable@main/sable-normalize.min.css[sable-normalize.min.css]
 
 == Source Code
