@@ -272,3 +272,13 @@ p {
   -ms-user-select: none;
   user-select: none;
 }
+
+.touch-none {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.touch-manipulation {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
