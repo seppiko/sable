@@ -209,6 +209,10 @@ p {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .flex-none {
   flex: none;
 }
@@ -277,6 +281,10 @@ p {
   justify-content: space-around;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-center {
   text-align: center;
 }
@@ -301,4 +309,24 @@ p {
 .touch-manipulation {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.whitespace-break-spaces {
+  white-space: break-spaces;
 }

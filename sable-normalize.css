@@ -299,20 +299,6 @@ button:-moz-focusring,
 }
 
 /*
- * Reset selection color
- */
-::selection {
-  background: inherit;
-  color: inherit;
-  text-shadow: none;
-}
-
-::-moz-selection {
-  background: inherit;
-  color: inherit;
-}
-
-/*
  * Reset placeholder
  */
 ::placeholder, ::-webkit-input-placeholder {
