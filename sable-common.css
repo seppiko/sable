@@ -89,11 +89,15 @@ p {
   line-height: 1.5;
 }
 
-::-moz-selection {
-  text-shadow: none;
+textarea:focus-visible {
+  outline: none;
 }
 
 ::selection {
+  text-shadow: none;
+}
+
+::-moz-selection {
   text-shadow: none;
 }
 
