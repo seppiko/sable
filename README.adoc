@@ -1,6 +1,7 @@
 = Seppiko SableCSS release for CDN
 
 image:https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square[MIT License]
+image:https://img.shields.io/npm/v/@seppiko/sablecss?style=flat-square[npm]
 
 == Seppiko SableCSS Normalize
 

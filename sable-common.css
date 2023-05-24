@@ -380,6 +380,90 @@ textarea:focus-visible {
   justify-self: stretch;
 }
 
+.rounded-none {
+  border-radius: 0;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-none {
+  border: 0 solid inherit;
+}
+
+.border-0 {
+  border-width: 0px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-inherit {
+  border-color: inherit;
+}
+
+.border-current {
+  border-color: currentColor;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.outline-0 {
+  outline-width: 0px;
+}
+
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-inherit {
+  outline-color: inherit;
+}
+
+.outline-current {
+  outline-color: currentColor;
+}
+
+.outline-transparent {
+  outline-color: transparent;
+}
+
+.outline-solid {
+  outline-style: solid;
+}
+
+.outline-dashed {
+  outline-style: dashed;
+}
+
+.outline-dotted {
+  outline-style: dotted;
+}
+
+.outline-double {
+  outline-style: double;
+}
+
 .p-0\.5 {
   padding: 0.125rem;
 }
