@@ -3550,6 +3550,38 @@ textarea:focus-visible {
   text-overflow: clip;
 }
 
+.vertical-baseline {
+  vertical-align: baseline;
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+.vertical-text-top {
+  vertical-align: text-top;
+}
+
+.vertical-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.vertical-sub {
+  vertical-align: sub;
+}
+
+.vertical-super {
+  vertical-align: super;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
