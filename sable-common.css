@@ -304,10 +304,6 @@ textarea:focus-visible {
   flex-wrap: nowrap;
 }
 
-.content-normal {
-  align-content: normal;
-}
-
 .content-center {
   align-content: center;
 }
@@ -332,6 +328,10 @@ textarea:focus-visible {
   align-content: space-evenly;
 }
 
+.content-stretch {
+  align-content: stretch;
+}
+
 .items-center {
   align-items: center;
 }
@@ -342,6 +342,10 @@ textarea:focus-visible {
 
 .items-end {
   align-items: flex-end;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .self-auto {
@@ -358,6 +362,10 @@ textarea:focus-visible {
 
 .self-center {
   align-self: center;
+}
+
+.self-stretch {
+  align-self: stretch;
 }
 
 .justify-start {
@@ -378,6 +386,14 @@ textarea:focus-visible {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
 }
 
 .justify-items-start {
@@ -414,6 +430,70 @@ textarea:focus-visible {
 
 .justify-self-stretch {
   justify-self: stretch;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-content-start {
+  place-content: start;
+}
+
+.place-content-end {
+  place-content: end;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-content-around {
+  place-content: space-around;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.place-content-stretch {
+  place-content: stretch;
+}
+
+.place-items-start {
+  place-items: start;
+}
+
+.place-items-end {
+  place-items: end;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.place-items-stretch {
+  place-items: stretch;
+}
+
+.place-self-auto {
+  place-self: auto;
+}
+
+.place-self-start {
+  place-self: start;
+}
+
+.place-self-end {
+  place-self: end;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.place-self-stretch {
+  place-self: stretch;
 }
 
 .rounded-none {
