@@ -144,8 +144,44 @@ textarea:focus-visible {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clear-none {
+  clear: none;
 }
 
 .overflow-auto {
@@ -470,6 +506,66 @@ textarea:focus-visible {
 
 .outline-double {
   outline-style: double;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .p-0\.5 {
@@ -3240,6 +3336,22 @@ textarea:focus-visible {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .px-auto {
