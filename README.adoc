@@ -17,4 +17,4 @@ link:https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-common.min.css[sabl
 
 == Source Code
 
-link:https://gitlab.com/seppiko/sablecss[GitLab]
+link:https://gitlab.com/seppiko/sable/sablecss[GitLab]
