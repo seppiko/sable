@@ -58,9 +58,6 @@ ol, ul {
   padding-inline: 0;
 }
 
-nav {
-  width: 100%;
-}
 nav ol, nav ul {
   list-style: none inside;
 }
@@ -68,7 +65,6 @@ nav ol li, nav ul li {
   display: inline-block;
 }
 
-header,
 main,
 section,
 article,
