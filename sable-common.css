@@ -801,11 +801,11 @@ p {
 }
 
 .bg-transparent {
-  background: transparent;
+  background-color: transparent;
 }
 
 .bg-none {
-  background: none;
+  background-image: none;
 }
 
 .rounded-none {
@@ -10108,16 +10108,12 @@ p {
   font-style: normal;
 }
 
-.text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-base, .text-sm, .text-xs {
-  line-height: 1.25;
-}
-
 .text-xs {
   font-size: 0.75rem;
 }
 
 .text-sm {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
 }
 
 .text-base {
