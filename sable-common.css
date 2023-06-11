@@ -10240,6 +10240,58 @@ p {
   text-align: justify;
 }
 
+.no-underline {
+  text-decoration-line: none;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.decoration-inherit {
+  text-decoration-color: inherit;
+}
+
+.decoration-current {
+  text-decoration-color: currentColor;
+}
+
+.decoration-solid {
+  text-decoration-style: solid;
+}
+
+.decoration-double {
+  text-decoration-style: double;
+}
+
+.decoration-dotted {
+  text-decoration-style: dotted;
+}
+
+.decoration-dashed {
+  text-decoration-style: dashed;
+}
+
+.decoration-wavy {
+  text-decoration-style: wavy;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
