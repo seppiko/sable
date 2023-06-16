@@ -223,7 +223,8 @@ progress {
   -moz-appearance: textfield;
   appearance: textfield;
   /* 1 */
-  outline-offset: -2px; /* 2 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /*

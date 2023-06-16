@@ -688,6 +688,104 @@ p {
   grid-auto-rows: auto;
 }
 
+.transform-none {
+  transform: none;
+}
+
+.scale-0 {
+  transform: scale(0);
+}
+
+.scale-25 {
+  transform: scale(0.25);
+}
+
+.scale-50 {
+  transform: scale(0.5);
+}
+
+.scale-75 {
+  transform: scale(0.75);
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-45 {
+  transform: rotate(-45deg);
+}
+
+.-rotate-90 {
+  transform: rotate(-90deg);
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.translate-y-0 {
+  transform: translateY(0);
+}
+
+.origin-center {
+  transform-origin: center;
+}
+
+.origin-top {
+  transform-origin: top;
+}
+
+.origin-top-right {
+  transform-origin: top right;
+}
+
+.origin-right {
+  transform-origin: right;
+}
+
+.origin-bottom-right {
+  transform-origin: bottom right;
+}
+
+.origin-bottom {
+  transform-origin: bottom;
+}
+
+.origin-bottom-left {
+  transform-origin: bottom left;
+}
+
+.origin-left {
+  transform-origin: left;
+}
+
+.origin-top-left {
+  transform-origin: top left;
+}
+
+.transition-none {
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  transition-property: none;
+}
+
+.animate-none {
+  animation: none;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -812,6 +910,10 @@ p {
   border-radius: 0;
 }
 
+.rounded-base {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -844,23 +946,33 @@ p {
   border-color: transparent;
 }
 
-.border-solid {
+.border-solid,
+.hover\:border-solid:hover,
+.focus\:border-solid:focus {
   border-style: solid;
 }
 
-.border-dashed {
+.border-dashed,
+.hover\:border-dashed:hover,
+.focus\:border-dashed:focus {
   border-style: dashed;
 }
 
-.border-dotted {
+.border-dotted,
+.hover\:border-dotted:hover,
+.focus\:border-dotted:focus {
   border-style: dotted;
 }
 
-.border-double {
+.border-double,
+.hover\:border-double:hover,
+.focus\:border-double:focus {
   border-style: double;
 }
 
-.outline-none {
+.outline-none,
+.hover\:outline-none:hover,
+.focus\:outline-none:focus {
   outline: none;
 }
 
@@ -884,19 +996,27 @@ p {
   outline-color: transparent;
 }
 
-.outline-solid {
+.outline-solid,
+.hover\:outline-solid:hover,
+.focus\:outline-solid:focus {
   outline-style: solid;
 }
 
-.outline-dashed {
+.outline-dashed,
+.hover\:outline-dashed:hover,
+.focus\:outline-dashed:focus {
   outline-style: dashed;
 }
 
-.outline-dotted {
+.outline-dotted,
+.hover\:outline-dotted:hover,
+.focus\:outline-dotted:focus {
   outline-style: dotted;
 }
 
-.outline-double {
+.outline-double,
+.hover\:outline-double:hover,
+.focus\:outline-double:focus {
   outline-style: double;
 }
 
@@ -10168,6 +10288,18 @@ p {
   line-height: 2;
 }
 
+.text-inherit {
+  color: inherit;
+}
+
+.text-current {
+  color: currentColor;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
 .normal-nums {
   font-variant-numeric: normal;
 }
@@ -10240,18 +10372,12 @@ p {
   text-align: justify;
 }
 
-.no-underline {
-  text-decoration-line: none;
-}
-
+.no-underline,
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
+.underline,
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -10272,23 +10398,33 @@ p {
   text-decoration-color: currentColor;
 }
 
-.decoration-solid {
+.decoration-solid,
+.hover\:decoration-solid:hover,
+.focus\:decoration-solid:focus {
   text-decoration-style: solid;
 }
 
-.decoration-double {
+.decoration-double,
+.hover\:decoration-double:hover,
+.focus\:decoration-double:focus {
   text-decoration-style: double;
 }
 
-.decoration-dotted {
+.decoration-dotted,
+.hover\:decoration-dotted:hover,
+.focus\:decoration-dotted:focus {
   text-decoration-style: dotted;
 }
 
-.decoration-dashed {
+.decoration-dashed,
+.hover\:decoration-dashed:hover,
+.focus\:decoration-dashed:focus {
   text-decoration-style: dashed;
 }
 
-.decoration-wavy {
+.decoration-wavy,
+.hover\:decoration-wavy:hover,
+.focus\:decoration-wavy:focus {
   text-decoration-style: wavy;
 }
 
