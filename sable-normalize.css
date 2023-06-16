@@ -242,6 +242,13 @@ summary {
 }
 
 /*
+ * Allow labels to use `margin` for spacing.
+ */
+label {
+  display: inline-block;
+}
+
+/*
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
