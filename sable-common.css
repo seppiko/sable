@@ -942,7 +942,9 @@ figure {
   border-radius: 9999px;
 }
 
-.border-none {
+.border-none,
+.hover\:border-none:hover,
+.focus\:border-none:focus {
   border: none;
 }
 
@@ -10280,47 +10282,58 @@ figure {
   font: inherit;
 }
 
-.font-thin {
+.font-thin,
+.hover\:font-thin:hover {
   font-weight: 100;
 }
 
-.font-extralight {
+.font-extralight,
+.hover\:font-extralight:hover {
   font-weight: 200;
 }
 
-.font-light {
+.font-light,
+.hover\:font-light:hover {
   font-weight: 300;
 }
 
-.font-normal {
+.font-normal,
+.hover\:font-normal:hover {
   font-weight: 400;
 }
 
-.font-medium {
+.font-medium,
+.hover\:font-medium:hover {
   font-weight: 500;
 }
 
-.font-semibold {
+.font-semibold,
+.hover\:font-semibold:hover {
   font-weight: 600;
 }
 
-.font-bold {
+.font-bold,
+.hover\:font-bold:hover {
   font-weight: 700;
 }
 
-.font-extrabold {
+.font-extrabold,
+.hover\:font-extrabold:hover {
   font-weight: 800;
 }
 
-.font-black {
+.font-black,
+.hover\:font-black:hover {
   font-weight: 900;
 }
 
-.italic {
+.italic,
+.hover\:italic:hover {
   font-style: italic;
 }
 
-.not-italic {
+.not-italic,
+.hover\:not-italic:hover {
   font-style: normal;
 }
 
@@ -10468,21 +10481,33 @@ figure {
   text-align: justify;
 }
 
+.decoration-none,
+.hover\:decoration-none:hover,
+.focus\:decoration-none:focus {
+  text-decoration: none;
+}
+
 .no-underline,
-.hover\:no-underline:hover {
+.hover\:no-underline:hover,
+.focus\:no-underline:focus {
   text-decoration-line: none;
 }
 
 .underline,
-.hover\:underline:hover {
+.hover\:underline:hover,
+.focus\:underline:focus {
   text-decoration-line: underline;
 }
 
-.overline {
+.overline,
+.hover\:overline:hover,
+.focus\:overline:focus {
   text-decoration-line: overline;
 }
 
-.line-through {
+.line-through,
+.hover\:line-through:hover,
+.focus\:line-through:focus {
   text-decoration-line: line-through;
 }
 
