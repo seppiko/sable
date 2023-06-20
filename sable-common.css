@@ -129,14 +129,6 @@ figure {
   outline: none;
 }
 
-::selection {
-  text-shadow: none;
-}
-
-::-moz-selection {
-  text-shadow: none;
-}
-
 .container {
   width: 100%;
 }
