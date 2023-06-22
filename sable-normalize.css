@@ -251,10 +251,7 @@ label {
 /*
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
-[type=submit]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=button]::-moz-focus-inner {
+::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -262,10 +259,7 @@ button::-moz-focus-inner,
 /*
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type=submit]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=button]:-moz-focusring {
+:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -287,11 +281,15 @@ button:-moz-focusring,
 }
 
 /*
- * Remove the inner padding in Chrome and Safari on macOS.
+ * 1. Remove the inner padding in Chrome and Safari on macOS.
+ * 2. Correct the outline style in Safari.
  */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
   appearance: none;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /*

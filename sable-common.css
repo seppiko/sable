@@ -12,11 +12,17 @@ h3,
   font-weight: 700;
 }
 
+/**
+ * 1. Remove top margins from headings
+ *    By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
+ *    margin for easier control within type scales as it avoids margin collapsing.
+ */
 h3,
 .h3, h2,
 .h2, h1,
 .h1 {
   margin: 0;
+  /* 1 */
   line-height: 1.5;
 }
 
@@ -25,6 +31,7 @@ h6,
 .h5, h4,
 .h4 {
   margin: 0;
+  /* 1 */
   line-height: 1.25;
 }
 
@@ -101,6 +108,18 @@ button,
   cursor: pointer;
 }
 
+blockquote,
+figure,
+p {
+  margin-inline: 0;
+  margin-block: 0;
+}
+
+blockquote,
+figure {
+  margin-bottom: 0.5rem;
+}
+
 p {
   line-height: 1.15;
   margin-top: 0;
@@ -113,16 +132,19 @@ pre {
   overflow-wrap: break-word;
 }
 
-blockquote,
-figure,
-p {
-  margin-inline: 0;
-  margin-block: 0;
+footer {
+  font-size: 0.876rem;
+  line-height: 1.15;
 }
 
-blockquote,
-figure {
-  margin-bottom: 0.5rem;
+table label,
+table input {
+  display: table-cell;
+}
+table caption {
+  text-align: center;
+  caption-side: bottom;
+  font-size: 0.875rem;
 }
 
 :focus-visible {
