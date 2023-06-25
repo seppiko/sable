@@ -159,37 +159,37 @@ table caption {
 }
 @media only screen and (min-width: 640px) {
   .container {
-    width: 615px;
+    max-width: 615px;
   }
 }
 @media only screen and (min-width: 768px) {
   .container {
-    width: 722px;
+    max-width: 722px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .container {
-    width: 943px;
+    max-width: 943px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .container {
-    width: 1152px;
+    max-width: 1152px;
   }
 }
 @media only screen and (min-width: 1536px) {
   .container {
-    width: 1352px;
+    max-width: 1352px;
   }
 }
 @media only screen and (min-width: 1920px) {
   .container {
-    width: 1652px;
+    max-width: 1652px;
   }
 }
 @media only screen and (min-width: 2560px) {
   .container {
-    width: 2151px;
+    max-width: 2151px;
   }
 }
 
