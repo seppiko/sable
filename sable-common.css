@@ -13,9 +13,7 @@ h3,
 }
 
 /*
- * 1. Remove top margins from headings
- *    By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
- *    margin for easier control within type scales as it avoids margin collapsing.
+ * 1. Remove <h1>`-`<h6>` margins from headings.
  */
 h3,
 .h3, h2,
@@ -82,13 +80,6 @@ ol, ul {
   padding-inline: 0;
 }
 
-nav ol, nav ul {
-  list-style: none inside;
-}
-nav ol li, nav ul li {
-  display: inline-block;
-}
-
 main,
 section,
 article,
@@ -98,7 +89,6 @@ footer {
 
 button {
   overflow: visible;
-  text-transform: none;
 }
 
 button,
@@ -947,18 +937,266 @@ table caption {
   background-image: none;
 }
 
-.rounded-none {
+.rounded-none,
+.hover\:rounded-none:hover {
   border-radius: 0;
 }
 
-.rounded-base {
+.rounded-xs,
+.hover\:rounded-xs:hover {
+  border-radius: 0.125rem;
+}
+
+.rounded-sm,
+.hover\:rounded-sm:hover {
+  border-radius: 0.25rem;
+}
+
+.rounded-base,
+.hover\:rounded:hover {
+  border-radius: 0.375rem;
+}
+
+.rounded-md,
+.hover\:rounded-md:hover {
+  border-radius: 0.5rem;
+}
+
+.rounded-lg,
+.hover\:rounded-lg:hover {
+  border-radius: 0.675rem;
+}
+
+.rounded-xl,
+.hover\:rounded-xl:hover {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl,
+.hover\:rounded-2xl:hover {
   border-radius: 1rem;
 }
 
-.rounded-full {
+.rounded-3xl,
+.hover\:rounded-3xl:hover {
+  border-radius: 1.5rem;
+}
+
+.rounded-full,
+.hover\:rounded-full:hover {
   border-radius: 9999px;
 }
 
+@media (min-width: 640px) {
+  .sm\:rounded-none,
+  .sm\:hover\:rounded-none:hover {
+    border-radius: 0;
+  }
+  .sm\:rounded-xs,
+  .sm\:hover\:rounded-xs:hover {
+    border-radius: 0.125rem;
+  }
+  .sm\:rounded-sm,
+  .sm\:hover\:rounded-sm:hover {
+    border-radius: 0.25rem;
+  }
+  .sm\:rounded-base,
+  .sm\:hover\:rounded:hover {
+    border-radius: 0.375rem;
+  }
+  .sm\:rounded-md,
+  .sm\:hover\:rounded-md:hover {
+    border-radius: 0.5rem;
+  }
+  .sm\:rounded-lg,
+  .sm\:hover\:rounded-lg:hover {
+    border-radius: 0.675rem;
+  }
+  .sm\:rounded-xl,
+  .sm\:hover\:rounded-xl:hover {
+    border-radius: 0.75rem;
+  }
+  .sm\:rounded-2xl,
+  .sm\:hover\:rounded-2xl:hover {
+    border-radius: 1rem;
+  }
+  .sm\:rounded-3xl,
+  .sm\:hover\:rounded-3xl:hover {
+    border-radius: 1.5rem;
+  }
+  .sm\:rounded-full,
+  .sm\:hover\:rounded-full:hover {
+    border-radius: 9999px;
+  }
+}
+@media (min-width: 768px) {
+  .md\:rounded-none,
+  .md\:hover\:rounded-none:hover {
+    border-radius: 0;
+  }
+  .md\:rounded-xs,
+  .md\:hover\:rounded-xs:hover {
+    border-radius: 0.125rem;
+  }
+  .md\:rounded-sm,
+  .md\:hover\:rounded-sm:hover {
+    border-radius: 0.25rem;
+  }
+  .md\:rounded-base,
+  .md\:hover\:rounded:hover {
+    border-radius: 0.375rem;
+  }
+  .md\:rounded-md,
+  .md\:hover\:rounded-md:hover {
+    border-radius: 0.5rem;
+  }
+  .md\:rounded-lg,
+  .md\:hover\:rounded-lg:hover {
+    border-radius: 0.675rem;
+  }
+  .md\:rounded-xl,
+  .md\:hover\:rounded-xl:hover {
+    border-radius: 0.75rem;
+  }
+  .md\:rounded-2xl,
+  .md\:hover\:rounded-2xl:hover {
+    border-radius: 1rem;
+  }
+  .md\:rounded-3xl,
+  .md\:hover\:rounded-3xl:hover {
+    border-radius: 1.5rem;
+  }
+  .md\:rounded-full,
+  .md\:hover\:rounded-full:hover {
+    border-radius: 9999px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:rounded-none,
+  .lg\:hover\:rounded-none:hover {
+    border-radius: 0;
+  }
+  .lg\:rounded-xs,
+  .lg\:hover\:rounded-xs:hover {
+    border-radius: 0.125rem;
+  }
+  .lg\:rounded-sm,
+  .lg\:hover\:rounded-sm:hover {
+    border-radius: 0.25rem;
+  }
+  .lg\:rounded-base,
+  .lg\:hover\:rounded:hover {
+    border-radius: 0.375rem;
+  }
+  .lg\:rounded-md,
+  .lg\:hover\:rounded-md:hover {
+    border-radius: 0.5rem;
+  }
+  .lg\:rounded-lg,
+  .lg\:hover\:rounded-lg:hover {
+    border-radius: 0.675rem;
+  }
+  .lg\:rounded-xl,
+  .lg\:hover\:rounded-xl:hover {
+    border-radius: 0.75rem;
+  }
+  .lg\:rounded-2xl,
+  .lg\:hover\:rounded-2xl:hover {
+    border-radius: 1rem;
+  }
+  .lg\:rounded-3xl,
+  .lg\:hover\:rounded-3xl:hover {
+    border-radius: 1.5rem;
+  }
+  .lg\:rounded-full,
+  .lg\:hover\:rounded-full:hover {
+    border-radius: 9999px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:rounded-none,
+  .xl\:hover\:rounded-none:hover {
+    border-radius: 0;
+  }
+  .xl\:rounded-xs,
+  .xl\:hover\:rounded-xs:hover {
+    border-radius: 0.125rem;
+  }
+  .xl\:rounded-sm,
+  .xl\:hover\:rounded-sm:hover {
+    border-radius: 0.25rem;
+  }
+  .xl\:rounded-base,
+  .xl\:hover\:rounded:hover {
+    border-radius: 0.375rem;
+  }
+  .xl\:rounded-md,
+  .xl\:hover\:rounded-md:hover {
+    border-radius: 0.5rem;
+  }
+  .xl\:rounded-lg,
+  .xl\:hover\:rounded-lg:hover {
+    border-radius: 0.675rem;
+  }
+  .xl\:rounded-xl,
+  .xl\:hover\:rounded-xl:hover {
+    border-radius: 0.75rem;
+  }
+  .xl\:rounded-2xl,
+  .xl\:hover\:rounded-2xl:hover {
+    border-radius: 1rem;
+  }
+  .xl\:rounded-3xl,
+  .xl\:hover\:rounded-3xl:hover {
+    border-radius: 1.5rem;
+  }
+  .xl\:rounded-full,
+  .xl\:hover\:rounded-full:hover {
+    border-radius: 9999px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:rounded-none,
+  .xxl\:hover\:rounded-none:hover {
+    border-radius: 0;
+  }
+  .xxl\:rounded-xs,
+  .xxl\:hover\:rounded-xs:hover {
+    border-radius: 0.125rem;
+  }
+  .xxl\:rounded-sm,
+  .xxl\:hover\:rounded-sm:hover {
+    border-radius: 0.25rem;
+  }
+  .xxl\:rounded-base,
+  .xxl\:hover\:rounded:hover {
+    border-radius: 0.375rem;
+  }
+  .xxl\:rounded-md,
+  .xxl\:hover\:rounded-md:hover {
+    border-radius: 0.5rem;
+  }
+  .xxl\:rounded-lg,
+  .xxl\:hover\:rounded-lg:hover {
+    border-radius: 0.675rem;
+  }
+  .xxl\:rounded-xl,
+  .xxl\:hover\:rounded-xl:hover {
+    border-radius: 0.75rem;
+  }
+  .xxl\:rounded-2xl,
+  .xxl\:hover\:rounded-2xl:hover {
+    border-radius: 1rem;
+  }
+  .xxl\:rounded-3xl,
+  .xxl\:hover\:rounded-3xl:hover {
+    border-radius: 1.5rem;
+  }
+  .xxl\:rounded-full,
+  .xxl\:hover\:rounded-full:hover {
+    border-radius: 9999px;
+  }
+}
 .border-none,
 .hover\:border-none:hover,
 .focus\:border-none:focus {
@@ -12699,37 +12937,53 @@ table caption {
   margin-bottom: -24rem;
 }
 
-.mx-auto {
+.mx-auto,
+first\:mx-auto:first-child,
+last\:mx-auto:last-child {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-auto {
+.my-auto,
+first\:my-auto:first-child,
+last\:my-auto:last-child {
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.mt-auto {
+.mt-auto,
+first\:mt-auto:first-child,
+last\:mt-auto:last-child {
   margin-top: auto;
 }
 
-.mr-auto {
+.mr-auto,
+first\:mr-auto:first-child,
+last\:mr-auto:last-child {
   margin-right: auto;
 }
 
-.mb-auto {
+.mb-auto,
+first\:mb-auto:first-child,
+last\:mb-auto:last-child {
   margin-bottom: auto;
 }
 
-.ml-auto {
+.ml-auto,
+first\:ml-auto:first-child,
+last\:ml-auto:last-child {
   margin-left: auto;
 }
 
-.ms-auto {
+.ms-auto,
+first\:ms-auto:first-child,
+last\:ms-auto:last-child {
   margin-inline-start: auto;
 }
 
-.me-auto {
+.me-auto,
+first\:me-auto:first-child,
+last\:me-auto:last-child {
   margin-inline-end: auto;
 }
 
@@ -22208,30 +22462,46 @@ table caption {
     margin-top: -24rem;
     margin-bottom: -24rem;
   }
-  .sm\:mx-auto {
+  .sm\:mx-auto,
+  .sm\:first\:mx-auto:first-child,
+  .sm\:last\:mx-auto:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .sm\:my-auto {
+  .sm\:my-auto,
+  .sm\:first\:my-auto:first-child,
+  .sm\:last\:my-auto:last-child {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .sm\:mt-auto {
+  .sm\:mt-auto,
+  .sm\:first\:mt-auto:first-child,
+  .sm\:last\:mt-auto:last-child {
     margin-top: auto;
   }
-  .sm\:mr-auto {
+  .sm\:mr-auto,
+  .sm\:first\:mr-auto:first-child,
+  .sm\:last\:mr-auto:last-child {
     margin-right: auto;
   }
-  .sm\:mb-auto {
+  .sm\:mb-auto,
+  .sm\:first\:mb-auto:first-child,
+  .sm\:last\:mb-auto:last-child {
     margin-bottom: auto;
   }
-  .sm\:ml-auto {
+  .sm\:ml-auto,
+  .sm\:first\:ml-auto:first-child,
+  .sm\:last\:ml-auto:last-child {
     margin-left: auto;
   }
-  .sm\:ms-auto {
+  .sm\:ms-auto,
+  .sm\:first\:ms-auto:first-child,
+  .sm\:last\:ms-auto:last-child {
     margin-inline-start: auto;
   }
-  .sm\:me-auto {
+  .sm\:me-auto,
+  .sm\:first\:me-auto:first-child,
+  .sm\:last\:me-auto:last-child {
     margin-inline-end: auto;
   }
 }
@@ -31710,30 +31980,46 @@ table caption {
     margin-top: -24rem;
     margin-bottom: -24rem;
   }
-  .md\:mx-auto {
+  .md\:mx-auto,
+  .md\:first\:mx-auto:first-child,
+  .md\:last\:mx-auto:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .md\:my-auto {
+  .md\:my-auto,
+  .md\:first\:my-auto:first-child,
+  .md\:last\:my-auto:last-child {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .md\:mt-auto {
+  .md\:mt-auto,
+  .md\:first\:mt-auto:first-child,
+  .md\:last\:mt-auto:last-child {
     margin-top: auto;
   }
-  .md\:mr-auto {
+  .md\:mr-auto,
+  .md\:first\:mr-auto:first-child,
+  .md\:last\:mr-auto:last-child {
     margin-right: auto;
   }
-  .md\:mb-auto {
+  .md\:mb-auto,
+  .md\:first\:mb-auto:first-child,
+  .md\:last\:mb-auto:last-child {
     margin-bottom: auto;
   }
-  .md\:ml-auto {
+  .md\:ml-auto,
+  .md\:first\:ml-auto:first-child,
+  .md\:last\:ml-auto:last-child {
     margin-left: auto;
   }
-  .md\:ms-auto {
+  .md\:ms-auto,
+  .md\:first\:ms-auto:first-child,
+  .md\:last\:ms-auto:last-child {
     margin-inline-start: auto;
   }
-  .md\:me-auto {
+  .md\:me-auto,
+  .md\:first\:me-auto:first-child,
+  .md\:last\:me-auto:last-child {
     margin-inline-end: auto;
   }
 }
@@ -41212,30 +41498,46 @@ table caption {
     margin-top: -24rem;
     margin-bottom: -24rem;
   }
-  .lg\:mx-auto {
+  .lg\:mx-auto,
+  .lg\:first\:mx-auto:first-child,
+  .lg\:last\:mx-auto:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .lg\:my-auto {
+  .lg\:my-auto,
+  .lg\:first\:my-auto:first-child,
+  .lg\:last\:my-auto:last-child {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .lg\:mt-auto {
+  .lg\:mt-auto,
+  .lg\:first\:mt-auto:first-child,
+  .lg\:last\:mt-auto:last-child {
     margin-top: auto;
   }
-  .lg\:mr-auto {
+  .lg\:mr-auto,
+  .lg\:first\:mr-auto:first-child,
+  .lg\:last\:mr-auto:last-child {
     margin-right: auto;
   }
-  .lg\:mb-auto {
+  .lg\:mb-auto,
+  .lg\:first\:mb-auto:first-child,
+  .lg\:last\:mb-auto:last-child {
     margin-bottom: auto;
   }
-  .lg\:ml-auto {
+  .lg\:ml-auto,
+  .lg\:first\:ml-auto:first-child,
+  .lg\:last\:ml-auto:last-child {
     margin-left: auto;
   }
-  .lg\:ms-auto {
+  .lg\:ms-auto,
+  .lg\:first\:ms-auto:first-child,
+  .lg\:last\:ms-auto:last-child {
     margin-inline-start: auto;
   }
-  .lg\:me-auto {
+  .lg\:me-auto,
+  .lg\:first\:me-auto:first-child,
+  .lg\:last\:me-auto:last-child {
     margin-inline-end: auto;
   }
 }
@@ -50714,30 +51016,46 @@ table caption {
     margin-top: -24rem;
     margin-bottom: -24rem;
   }
-  .xl\:mx-auto {
+  .xl\:mx-auto,
+  .xl\:first\:mx-auto:first-child,
+  .xl\:last\:mx-auto:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .xl\:my-auto {
+  .xl\:my-auto,
+  .xl\:first\:my-auto:first-child,
+  .xl\:last\:my-auto:last-child {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .xl\:mt-auto {
+  .xl\:mt-auto,
+  .xl\:first\:mt-auto:first-child,
+  .xl\:last\:mt-auto:last-child {
     margin-top: auto;
   }
-  .xl\:mr-auto {
+  .xl\:mr-auto,
+  .xl\:first\:mr-auto:first-child,
+  .xl\:last\:mr-auto:last-child {
     margin-right: auto;
   }
-  .xl\:mb-auto {
+  .xl\:mb-auto,
+  .xl\:first\:mb-auto:first-child,
+  .xl\:last\:mb-auto:last-child {
     margin-bottom: auto;
   }
-  .xl\:ml-auto {
+  .xl\:ml-auto,
+  .xl\:first\:ml-auto:first-child,
+  .xl\:last\:ml-auto:last-child {
     margin-left: auto;
   }
-  .xl\:ms-auto {
+  .xl\:ms-auto,
+  .xl\:first\:ms-auto:first-child,
+  .xl\:last\:ms-auto:last-child {
     margin-inline-start: auto;
   }
-  .xl\:me-auto {
+  .xl\:me-auto,
+  .xl\:first\:me-auto:first-child,
+  .xl\:last\:me-auto:last-child {
     margin-inline-end: auto;
   }
 }
@@ -60216,30 +60534,46 @@ table caption {
     margin-top: -24rem;
     margin-bottom: -24rem;
   }
-  .xxl\:mx-auto {
+  .xxl\:mx-auto,
+  .xxl\:first\:mx-auto:first-child,
+  .xxl\:last\:mx-auto:last-child {
     margin-left: auto;
     margin-right: auto;
   }
-  .xxl\:my-auto {
+  .xxl\:my-auto,
+  .xxl\:first\:my-auto:first-child,
+  .xxl\:last\:my-auto:last-child {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .xxl\:mt-auto {
+  .xxl\:mt-auto,
+  .xxl\:first\:mt-auto:first-child,
+  .xxl\:last\:mt-auto:last-child {
     margin-top: auto;
   }
-  .xxl\:mr-auto {
+  .xxl\:mr-auto,
+  .xxl\:first\:mr-auto:first-child,
+  .xxl\:last\:mr-auto:last-child {
     margin-right: auto;
   }
-  .xxl\:mb-auto {
+  .xxl\:mb-auto,
+  .xxl\:first\:mb-auto:first-child,
+  .xxl\:last\:mb-auto:last-child {
     margin-bottom: auto;
   }
-  .xxl\:ml-auto {
+  .xxl\:ml-auto,
+  .xxl\:first\:ml-auto:first-child,
+  .xxl\:last\:ml-auto:last-child {
     margin-left: auto;
   }
-  .xxl\:ms-auto {
+  .xxl\:ms-auto,
+  .xxl\:first\:ms-auto:first-child,
+  .xxl\:last\:ms-auto:last-child {
     margin-inline-start: auto;
   }
-  .xxl\:me-auto {
+  .xxl\:me-auto,
+  .xxl\:first\:me-auto:first-child,
+  .xxl\:last\:me-auto:last-child {
     margin-inline-end: auto;
   }
 }
@@ -61397,6 +61731,10 @@ table caption {
 
 .text-transparent {
   color: transparent;
+}
+
+.text-shadow-none {
+  text-shadow: none;
 }
 
 .normal-nums {
