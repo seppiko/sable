@@ -12938,52 +12938,52 @@ table caption {
 }
 
 .mx-auto,
-first\:mx-auto:first-child,
-last\:mx-auto:last-child {
+.first\:mx-auto:first-child,
+.last\:mx-auto:last-child {
   margin-left: auto;
   margin-right: auto;
 }
 
 .my-auto,
-first\:my-auto:first-child,
-last\:my-auto:last-child {
+.first\:my-auto:first-child,
+.last\:my-auto:last-child {
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .mt-auto,
-first\:mt-auto:first-child,
-last\:mt-auto:last-child {
+.first\:mt-auto:first-child,
+.last\:mt-auto:last-child {
   margin-top: auto;
 }
 
 .mr-auto,
-first\:mr-auto:first-child,
-last\:mr-auto:last-child {
+.first\:mr-auto:first-child,
+.last\:mr-auto:last-child {
   margin-right: auto;
 }
 
 .mb-auto,
-first\:mb-auto:first-child,
-last\:mb-auto:last-child {
+.first\:mb-auto:first-child,
+.last\:mb-auto:last-child {
   margin-bottom: auto;
 }
 
 .ml-auto,
-first\:ml-auto:first-child,
-last\:ml-auto:last-child {
+.first\:ml-auto:first-child,
+.last\:ml-auto:last-child {
   margin-left: auto;
 }
 
 .ms-auto,
-first\:ms-auto:first-child,
-last\:ms-auto:last-child {
+.first\:ms-auto:first-child,
+.last\:ms-auto:last-child {
   margin-inline-start: auto;
 }
 
 .me-auto,
-first\:me-auto:first-child,
-last\:me-auto:last-child {
+.first\:me-auto:first-child,
+.last\:me-auto:last-child {
   margin-inline-end: auto;
 }
 
@@ -61452,6 +61452,30 @@ last\:me-auto:last-child {
   font-size: 4rem;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.15;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
 @media (min-width: 640px) {
   .sm\:text-xs {
     font-size: 0.75rem;
@@ -61479,6 +61503,24 @@ last\:me-auto:last-child {
   }
   .sm\:text-5xl {
     font-size: 4rem;
+  }
+  .sm\:leading-none {
+    line-height: 1;
+  }
+  .sm\:leading-tight {
+    line-height: 1.15;
+  }
+  .sm\:leading-snug {
+    line-height: 1.375;
+  }
+  .sm\:leading-normal {
+    line-height: 1.5;
+  }
+  .sm\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .sm\:leading-loose {
+    line-height: 2;
   }
 }
 @media (min-width: 768px) {
@@ -61509,6 +61551,24 @@ last\:me-auto:last-child {
   .md\:text-5xl {
     font-size: 4rem;
   }
+  .md\:leading-none {
+    line-height: 1;
+  }
+  .md\:leading-tight {
+    line-height: 1.15;
+  }
+  .md\:leading-snug {
+    line-height: 1.375;
+  }
+  .md\:leading-normal {
+    line-height: 1.5;
+  }
+  .md\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .md\:leading-loose {
+    line-height: 2;
+  }
 }
 @media (min-width: 1024px) {
   .lg\:text-xs {
@@ -61537,6 +61597,24 @@ last\:me-auto:last-child {
   }
   .lg\:text-5xl {
     font-size: 4rem;
+  }
+  .lg\:leading-none {
+    line-height: 1;
+  }
+  .lg\:leading-tight {
+    line-height: 1.15;
+  }
+  .lg\:leading-snug {
+    line-height: 1.375;
+  }
+  .lg\:leading-normal {
+    line-height: 1.5;
+  }
+  .lg\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .lg\:leading-loose {
+    line-height: 2;
   }
 }
 @media (min-width: 1280px) {
@@ -61567,6 +61645,24 @@ last\:me-auto:last-child {
   .xl\:text-5xl {
     font-size: 4rem;
   }
+  .xl\:leading-none {
+    line-height: 1;
+  }
+  .xl\:leading-tight {
+    line-height: 1.15;
+  }
+  .xl\:leading-snug {
+    line-height: 1.375;
+  }
+  .xl\:leading-normal {
+    line-height: 1.5;
+  }
+  .xl\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .xl\:leading-loose {
+    line-height: 2;
+  }
 }
 @media (min-width: 1536px) {
   .xxl\:text-xs {
@@ -61596,112 +61692,6 @@ last\:me-auto:last-child {
   .xxl\:text-5xl {
     font-size: 4rem;
   }
-}
-.leading-none {
-  line-height: 1;
-}
-
-.leading-tight {
-  line-height: 1.15;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-normal {
-  line-height: 1.5;
-}
-
-.leading-relaxed {
-  line-height: 1.625;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
-@media (min-width: 640px) {
-  .sm\:leading-none {
-    line-height: 1;
-  }
-  .sm\:leading-tight {
-    line-height: 1.15;
-  }
-  .sm\:leading-snug {
-    line-height: 1.375;
-  }
-  .sm\:leading-normal {
-    line-height: 1.5;
-  }
-  .sm\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .sm\:leading-loose {
-    line-height: 2;
-  }
-}
-@media (min-width: 768px) {
-  .md\:leading-none {
-    line-height: 1;
-  }
-  .md\:leading-tight {
-    line-height: 1.15;
-  }
-  .md\:leading-snug {
-    line-height: 1.375;
-  }
-  .md\:leading-normal {
-    line-height: 1.5;
-  }
-  .md\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .md\:leading-loose {
-    line-height: 2;
-  }
-}
-@media (min-width: 1024px) {
-  .lg\:leading-none {
-    line-height: 1;
-  }
-  .lg\:leading-tight {
-    line-height: 1.15;
-  }
-  .lg\:leading-snug {
-    line-height: 1.375;
-  }
-  .lg\:leading-normal {
-    line-height: 1.5;
-  }
-  .lg\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .lg\:leading-loose {
-    line-height: 2;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:leading-none {
-    line-height: 1;
-  }
-  .xl\:leading-tight {
-    line-height: 1.15;
-  }
-  .xl\:leading-snug {
-    line-height: 1.375;
-  }
-  .xl\:leading-normal {
-    line-height: 1.5;
-  }
-  .xl\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .xl\:leading-loose {
-    line-height: 2;
-  }
-}
-@media (min-width: 1536px) {
   .xxl\:leading-none {
     line-height: 1;
   }
@@ -61877,6 +61867,326 @@ last\:me-auto:last-child {
   text-decoration-style: wavy;
 }
 
+@media (min-width: 640px) {
+  .sm\:text-right {
+    text-align: right;
+  }
+  .sm\:text-center {
+    text-align: center;
+  }
+  .sm\:text-left {
+    text-align: left;
+  }
+  .sm\:text-justify {
+    text-align: justify;
+  }
+  .sm\:decoration-none,
+  .sm\:hover\:decoration-none:hover,
+  .sm\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .sm\:no-underline,
+  .sm\:hover\:no-underline:hover,
+  .sm\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .sm\:underline,
+  .sm\:hover\:underline:hover,
+  .sm\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .sm\:overline,
+  .sm\:hover\:overline:hover,
+  .sm\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .sm\:line-through,
+  .sm\:hover\:line-through:hover,
+  .sm\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .sm\:decoration-solid,
+  .sm\:hover\:decoration-solid:hover,
+  .sm\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .sm\:decoration-double,
+  .sm\:hover\:decoration-double:hover,
+  .sm\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .sm\:decoration-dotted,
+  .sm\:hover\:decoration-dotted:hover,
+  .sm\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .sm\:decoration-dashed,
+  .sm\:hover\:decoration-dashed:hover,
+  .sm\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .sm\:decoration-wavy,
+  .sm\:hover\:decoration-wavy:hover,
+  .sm\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+}
+@media (min-width: 768px) {
+  .md\:text-right {
+    text-align: right;
+  }
+  .md\:text-center {
+    text-align: center;
+  }
+  .md\:text-left {
+    text-align: left;
+  }
+  .md\:text-justify {
+    text-align: justify;
+  }
+  .md\:decoration-none,
+  .md\:hover\:decoration-none:hover,
+  .md\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .md\:no-underline,
+  .md\:hover\:no-underline:hover,
+  .md\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .md\:underline,
+  .md\:hover\:underline:hover,
+  .md\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .md\:overline,
+  .md\:hover\:overline:hover,
+  .md\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .md\:line-through,
+  .md\:hover\:line-through:hover,
+  .md\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .md\:decoration-solid,
+  .md\:hover\:decoration-solid:hover,
+  .md\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .md\:decoration-double,
+  .md\:hover\:decoration-double:hover,
+  .md\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .md\:decoration-dotted,
+  .md\:hover\:decoration-dotted:hover,
+  .md\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .md\:decoration-dashed,
+  .md\:hover\:decoration-dashed:hover,
+  .md\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .md\:decoration-wavy,
+  .md\:hover\:decoration-wavy:hover,
+  .md\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:text-right {
+    text-align: right;
+  }
+  .lg\:text-center {
+    text-align: center;
+  }
+  .lg\:text-left {
+    text-align: left;
+  }
+  .lg\:text-justify {
+    text-align: justify;
+  }
+  .lg\:decoration-none,
+  .lg\:hover\:decoration-none:hover,
+  .lg\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .lg\:no-underline,
+  .lg\:hover\:no-underline:hover,
+  .lg\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .lg\:underline,
+  .lg\:hover\:underline:hover,
+  .lg\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .lg\:overline,
+  .lg\:hover\:overline:hover,
+  .lg\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .lg\:line-through,
+  .lg\:hover\:line-through:hover,
+  .lg\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .lg\:decoration-solid,
+  .lg\:hover\:decoration-solid:hover,
+  .lg\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .lg\:decoration-double,
+  .lg\:hover\:decoration-double:hover,
+  .lg\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .lg\:decoration-dotted,
+  .lg\:hover\:decoration-dotted:hover,
+  .lg\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .lg\:decoration-dashed,
+  .lg\:hover\:decoration-dashed:hover,
+  .lg\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .lg\:decoration-wavy,
+  .lg\:hover\:decoration-wavy:hover,
+  .lg\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:text-right {
+    text-align: right;
+  }
+  .xl\:text-center {
+    text-align: center;
+  }
+  .xl\:text-left {
+    text-align: left;
+  }
+  .xl\:text-justify {
+    text-align: justify;
+  }
+  .xl\:decoration-none,
+  .xl\:hover\:decoration-none:hover,
+  .xl\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .xl\:no-underline,
+  .xl\:hover\:no-underline:hover,
+  .xl\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .xl\:underline,
+  .xl\:hover\:underline:hover,
+  .xl\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .xl\:overline,
+  .xl\:hover\:overline:hover,
+  .xl\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .xl\:line-through,
+  .xl\:hover\:line-through:hover,
+  .xl\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .xl\:decoration-solid,
+  .xl\:hover\:decoration-solid:hover,
+  .xl\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .xl\:decoration-double,
+  .xl\:hover\:decoration-double:hover,
+  .xl\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .xl\:decoration-dotted,
+  .xl\:hover\:decoration-dotted:hover,
+  .xl\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .xl\:decoration-dashed,
+  .xl\:hover\:decoration-dashed:hover,
+  .xl\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .xl\:decoration-wavy,
+  .xl\:hover\:decoration-wavy:hover,
+  .xl\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:text-right {
+    text-align: right;
+  }
+  .xxl\:text-center {
+    text-align: center;
+  }
+  .xxl\:text-left {
+    text-align: left;
+  }
+  .xxl\:text-justify {
+    text-align: justify;
+  }
+  .xxl\:decoration-none,
+  .xxl\:hover\:decoration-none:hover,
+  .xxl\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .xxl\:no-underline,
+  .xxl\:hover\:no-underline:hover,
+  .xxl\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .xxl\:underline,
+  .xxl\:hover\:underline:hover,
+  .xxl\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .xxl\:overline,
+  .xxl\:hover\:overline:hover,
+  .xxl\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .xxl\:line-through,
+  .xxl\:hover\:line-through:hover,
+  .xxl\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .xxl\:decoration-solid,
+  .xxl\:hover\:decoration-solid:hover,
+  .xxl\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .xxl\:decoration-double,
+  .xxl\:hover\:decoration-double:hover,
+  .xxl\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .xxl\:decoration-dotted,
+  .xxl\:hover\:decoration-dotted:hover,
+  .xxl\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .xxl\:decoration-dashed,
+  .xxl\:hover\:decoration-dashed:hover,
+  .xxl\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .xxl\:decoration-wavy,
+  .xxl\:hover\:decoration-wavy:hover,
+  .xxl\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+}
 .uppercase {
   text-transform: uppercase;
 }
