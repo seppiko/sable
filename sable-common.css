@@ -1215,15 +1215,21 @@ table caption {
   border-width: 1px;
 }
 
-.border-inherit {
+.border-inherit,
+.hover\:border-inherit:hover,
+.focus\:border-inherit:focus {
   border-color: inherit;
 }
 
-.border-current {
+.border-current,
+.hover\:border-current:hover,
+.focus\:border-current:focus {
   border-color: currentColor;
 }
 
-.border-transparent {
+.border-transparent,
+.hover\:border-transparent:hover,
+.focus\:border-transparent:focus {
   border-color: transparent;
 }
 
@@ -1265,15 +1271,21 @@ table caption {
   outline-width: 1px;
 }
 
-.outline-inherit {
+.outline-inherit,
+.hover\:outline-solid:hover,
+.focus\:outline-solid:focus {
   outline-color: inherit;
 }
 
-.outline-current {
+.outline-current,
+.hover\:outline-inherit:hover,
+.focus\:outline-inherit:focus {
   outline-color: currentColor;
 }
 
-.outline-transparent {
+.outline-transparent,
+.hover\:outline-transparent:hover,
+.focus\:outline-transparent:focus {
   outline-color: transparent;
 }
 
@@ -61424,7 +61436,7 @@ table caption {
   font-size: 0.875rem;
 }
 
-.text-base {
+.text-md {
   font-size: 1rem;
 }
 
@@ -61483,7 +61495,7 @@ table caption {
   .sm\:text-sm {
     font-size: 0.875rem;
   }
-  .sm\:text-base {
+  .sm\:text-md {
     font-size: 1rem;
   }
   .sm\:text-lg {
@@ -61530,7 +61542,7 @@ table caption {
   .md\:text-sm {
     font-size: 0.875rem;
   }
-  .md\:text-base {
+  .md\:text-md {
     font-size: 1rem;
   }
   .md\:text-lg {
@@ -61577,7 +61589,7 @@ table caption {
   .lg\:text-sm {
     font-size: 0.875rem;
   }
-  .lg\:text-base {
+  .lg\:text-md {
     font-size: 1rem;
   }
   .lg\:text-lg {
@@ -61624,7 +61636,7 @@ table caption {
   .xl\:text-sm {
     font-size: 0.875rem;
   }
-  .xl\:text-base {
+  .xl\:text-md {
     font-size: 1rem;
   }
   .xl\:text-lg {
@@ -61671,7 +61683,7 @@ table caption {
   .xxl\:text-sm {
     font-size: 0.875rem;
   }
-  .xxl\:text-base {
+  .xxl\:text-md {
     font-size: 1rem;
   }
   .xxl\:text-lg {
