@@ -61469,7 +61469,7 @@ table caption {
 }
 
 .leading-tight {
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 .leading-snug {
@@ -61486,6 +61486,42 @@ table caption {
 
 .leading-loose {
   line-height: 2;
+}
+
+.tracking-tighter,
+.hover\:tracking-tighter:hover,
+.focus\:tracking-tighter:focus {
+  letter-spacing: -0.05em;
+}
+
+.tracking-tight,
+.hover\:tracking-tight:hover,
+.focus\:tracking-tight:focus {
+  letter-spacing: -0.025em;
+}
+
+.tracking-normal,
+.hover\:tracking-normal:hover,
+.focus\:tracking-normal:focus {
+  letter-spacing: 0em;
+}
+
+.tracking-wide,
+.hover\:tracking-wide:hover,
+.focus\:tracking-wide:focus {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider,
+.hover\:tracking-wider:hover,
+.focus\:tracking-wider:focus {
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest,
+.hover\:tracking-widest:hover,
+.focus\:tracking-widest:focus {
+  letter-spacing: 0.1em;
 }
 
 @media (min-width: 640px) {
@@ -61520,7 +61556,7 @@ table caption {
     line-height: 1;
   }
   .sm\:leading-tight {
-    line-height: 1.15;
+    line-height: 1.25;
   }
   .sm\:leading-snug {
     line-height: 1.375;
@@ -61533,6 +61569,36 @@ table caption {
   }
   .sm\:leading-loose {
     line-height: 2;
+  }
+  .sm\:tracking-tighter,
+  .sm\:hover\:tracking-tighter:hover,
+  .sm\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .sm\:tracking-tight,
+  .sm\:hover\:tracking-tight:hover,
+  .sm\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .sm\:tracking-normal,
+  .sm\:hover\:tracking-normal:hover,
+  .sm\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .sm\:tracking-wide,
+  .sm\:hover\:tracking-wide:hover,
+  .sm\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .sm\:tracking-wider,
+  .sm\:hover\:tracking-wider:hover,
+  .sm\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .sm\:tracking-widest,
+  .sm\:hover\:tracking-widest:hover,
+  .sm\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
   }
 }
 @media (min-width: 768px) {
@@ -61567,7 +61633,7 @@ table caption {
     line-height: 1;
   }
   .md\:leading-tight {
-    line-height: 1.15;
+    line-height: 1.25;
   }
   .md\:leading-snug {
     line-height: 1.375;
@@ -61580,6 +61646,36 @@ table caption {
   }
   .md\:leading-loose {
     line-height: 2;
+  }
+  .md\:tracking-tighter,
+  .md\:hover\:tracking-tighter:hover,
+  .md\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .md\:tracking-tight,
+  .md\:hover\:tracking-tight:hover,
+  .md\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .md\:tracking-normal,
+  .md\:hover\:tracking-normal:hover,
+  .md\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .md\:tracking-wide,
+  .md\:hover\:tracking-wide:hover,
+  .md\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .md\:tracking-wider,
+  .md\:hover\:tracking-wider:hover,
+  .md\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .md\:tracking-widest,
+  .md\:hover\:tracking-widest:hover,
+  .md\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
   }
 }
 @media (min-width: 1024px) {
@@ -61614,7 +61710,7 @@ table caption {
     line-height: 1;
   }
   .lg\:leading-tight {
-    line-height: 1.15;
+    line-height: 1.25;
   }
   .lg\:leading-snug {
     line-height: 1.375;
@@ -61627,6 +61723,36 @@ table caption {
   }
   .lg\:leading-loose {
     line-height: 2;
+  }
+  .lg\:tracking-tighter,
+  .lg\:hover\:tracking-tighter:hover,
+  .lg\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .lg\:tracking-tight,
+  .lg\:hover\:tracking-tight:hover,
+  .lg\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .lg\:tracking-normal,
+  .lg\:hover\:tracking-normal:hover,
+  .lg\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .lg\:tracking-wide,
+  .lg\:hover\:tracking-wide:hover,
+  .lg\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .lg\:tracking-wider,
+  .lg\:hover\:tracking-wider:hover,
+  .lg\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .lg\:tracking-widest,
+  .lg\:hover\:tracking-widest:hover,
+  .lg\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
   }
 }
 @media (min-width: 1280px) {
@@ -61661,7 +61787,7 @@ table caption {
     line-height: 1;
   }
   .xl\:leading-tight {
-    line-height: 1.15;
+    line-height: 1.25;
   }
   .xl\:leading-snug {
     line-height: 1.375;
@@ -61674,6 +61800,36 @@ table caption {
   }
   .xl\:leading-loose {
     line-height: 2;
+  }
+  .xl\:tracking-tighter,
+  .xl\:hover\:tracking-tighter:hover,
+  .xl\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .xl\:tracking-tight,
+  .xl\:hover\:tracking-tight:hover,
+  .xl\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .xl\:tracking-normal,
+  .xl\:hover\:tracking-normal:hover,
+  .xl\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .xl\:tracking-wide,
+  .xl\:hover\:tracking-wide:hover,
+  .xl\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .xl\:tracking-wider,
+  .xl\:hover\:tracking-wider:hover,
+  .xl\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .xl\:tracking-widest,
+  .xl\:hover\:tracking-widest:hover,
+  .xl\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
   }
 }
 @media (min-width: 1536px) {
@@ -61708,7 +61864,7 @@ table caption {
     line-height: 1;
   }
   .xxl\:leading-tight {
-    line-height: 1.15;
+    line-height: 1.25;
   }
   .xxl\:leading-snug {
     line-height: 1.375;
@@ -61722,20 +61878,58 @@ table caption {
   .xxl\:leading-loose {
     line-height: 2;
   }
+  .xxl\:tracking-tighter,
+  .xxl\:hover\:tracking-tighter:hover,
+  .xxl\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .xxl\:tracking-tight,
+  .xxl\:hover\:tracking-tight:hover,
+  .xxl\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .xxl\:tracking-normal,
+  .xxl\:hover\:tracking-normal:hover,
+  .xxl\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .xxl\:tracking-wide,
+  .xxl\:hover\:tracking-wide:hover,
+  .xxl\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .xxl\:tracking-wider,
+  .xxl\:hover\:tracking-wider:hover,
+  .xxl\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .xxl\:tracking-widest,
+  .xxl\:hover\:tracking-widest:hover,
+  .xxl\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
 }
-.text-inherit {
+.text-inherit,
+.hover\:text-inherit:hover,
+.focus\:text-inherit:focus {
   color: inherit;
 }
 
-.text-current {
+.text-current,
+.hover\:text-current:hover,
+.focus\:text-current:focus {
   color: currentColor;
 }
 
-.text-transparent {
+.text-transparent,
+.hover\:text-transparent:hover,
+.focus\:text-transparent:focus {
   color: transparent;
 }
 
-.text-shadow-none {
+.text-shadow-none,
+.hover\:text-shadow-none:hover,
+.focus\:text-shadow-none:focus {
   text-shadow: none;
 }
 
@@ -62199,29 +62393,41 @@ table caption {
     text-decoration-style: wavy;
   }
 }
-.uppercase {
+.uppercase,
+.hover\:uppercase:hover,
+.focus\:uppercase:focus {
   text-transform: uppercase;
 }
 
-.lowercase {
+.lowercase,
+.hover\:lowercase:hover,
+.focus\:lowercase:focus {
   text-transform: lowercase;
 }
 
-.capitalize {
+.capitalize,
+.hover\:capitalize:hover,
+.focus\:capitalize:focus {
   text-transform: capitalize;
 }
 
-.text-truncate {
+.text-truncate,
+.hover\:text-truncate:hover,
+.focus\:text-truncate:focus {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.text-ellipsis {
+.text-ellipsis,
+.hover\:text-ellipsis:hover,
+.focus\:text-ellipsis:focus {
   text-overflow: ellipsis;
 }
 
-.text-clip {
+.text-clip,
+.hover\:text-clip:hover,
+.focus\:text-clip:focus {
   text-overflow: clip;
 }
 
@@ -62290,6 +62496,421 @@ table caption {
   word-break: keep-all;
 }
 
+@media (min-width: 640px) {
+  .sm\:uppercase,
+  .sm\:hover\:uppercase:hover,
+  .sm\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .sm\:lowercase,
+  .sm\:hover\:lowercase:hover,
+  .sm\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .sm\:capitalize,
+  .sm\:hover\:capitalize:hover,
+  .sm\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .sm\:text-truncate,
+  .sm\:hover\:text-truncate:hover,
+  .sm\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sm\:text-ellipsis,
+  .sm\:hover\:text-ellipsis:hover,
+  .sm\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .sm\:text-clip,
+  .sm\:hover\:text-clip:hover,
+  .sm\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .sm\:vertical-baseline {
+    vertical-align: baseline;
+  }
+  .sm\:vertical-top {
+    vertical-align: top;
+  }
+  .sm\:vertical-middle {
+    vertical-align: middle;
+  }
+  .sm\:vertical-bottom {
+    vertical-align: bottom;
+  }
+  .sm\:vertical-text-top {
+    vertical-align: text-top;
+  }
+  .sm\:vertical-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .sm\:vertical-sub {
+    vertical-align: sub;
+  }
+  .sm\:vertical-super {
+    vertical-align: super;
+  }
+  .sm\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .sm\:whitespace-pre {
+    white-space: pre;
+  }
+  .sm\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .sm\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .sm\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .sm\:break-words {
+    overflow-wrap: break-word;
+  }
+  .sm\:break-all {
+    word-break: break-all;
+  }
+  .sm\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 768px) {
+  .md\:uppercase,
+  .md\:hover\:uppercase:hover,
+  .md\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .md\:lowercase,
+  .md\:hover\:lowercase:hover,
+  .md\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .md\:capitalize,
+  .md\:hover\:capitalize:hover,
+  .md\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .md\:text-truncate,
+  .md\:hover\:text-truncate:hover,
+  .md\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .md\:text-ellipsis,
+  .md\:hover\:text-ellipsis:hover,
+  .md\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .md\:text-clip,
+  .md\:hover\:text-clip:hover,
+  .md\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .md\:vertical-baseline {
+    vertical-align: baseline;
+  }
+  .md\:vertical-top {
+    vertical-align: top;
+  }
+  .md\:vertical-middle {
+    vertical-align: middle;
+  }
+  .md\:vertical-bottom {
+    vertical-align: bottom;
+  }
+  .md\:vertical-text-top {
+    vertical-align: text-top;
+  }
+  .md\:vertical-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .md\:vertical-sub {
+    vertical-align: sub;
+  }
+  .md\:vertical-super {
+    vertical-align: super;
+  }
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .md\:whitespace-pre {
+    white-space: pre;
+  }
+  .md\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .md\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .md\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .md\:break-words {
+    overflow-wrap: break-word;
+  }
+  .md\:break-all {
+    word-break: break-all;
+  }
+  .md\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:uppercase,
+  .lg\:hover\:uppercase:hover,
+  .lg\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .lg\:lowercase,
+  .lg\:hover\:lowercase:hover,
+  .lg\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .lg\:capitalize,
+  .lg\:hover\:capitalize:hover,
+  .lg\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .lg\:text-truncate,
+  .lg\:hover\:text-truncate:hover,
+  .lg\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lg\:text-ellipsis,
+  .lg\:hover\:text-ellipsis:hover,
+  .lg\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .lg\:text-clip,
+  .lg\:hover\:text-clip:hover,
+  .lg\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .lg\:vertical-baseline {
+    vertical-align: baseline;
+  }
+  .lg\:vertical-top {
+    vertical-align: top;
+  }
+  .lg\:vertical-middle {
+    vertical-align: middle;
+  }
+  .lg\:vertical-bottom {
+    vertical-align: bottom;
+  }
+  .lg\:vertical-text-top {
+    vertical-align: text-top;
+  }
+  .lg\:vertical-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .lg\:vertical-sub {
+    vertical-align: sub;
+  }
+  .lg\:vertical-super {
+    vertical-align: super;
+  }
+  .lg\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .lg\:whitespace-pre {
+    white-space: pre;
+  }
+  .lg\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .lg\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .lg\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .lg\:break-words {
+    overflow-wrap: break-word;
+  }
+  .lg\:break-all {
+    word-break: break-all;
+  }
+  .lg\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:uppercase,
+  .xl\:hover\:uppercase:hover,
+  .xl\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .xl\:lowercase,
+  .xl\:hover\:lowercase:hover,
+  .xl\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .xl\:capitalize,
+  .xl\:hover\:capitalize:hover,
+  .xl\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .xl\:text-truncate,
+  .xl\:hover\:text-truncate:hover,
+  .xl\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .xl\:text-ellipsis,
+  .xl\:hover\:text-ellipsis:hover,
+  .xl\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .xl\:text-clip,
+  .xl\:hover\:text-clip:hover,
+  .xl\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .xl\:vertical-baseline {
+    vertical-align: baseline;
+  }
+  .xl\:vertical-top {
+    vertical-align: top;
+  }
+  .xl\:vertical-middle {
+    vertical-align: middle;
+  }
+  .xl\:vertical-bottom {
+    vertical-align: bottom;
+  }
+  .xl\:vertical-text-top {
+    vertical-align: text-top;
+  }
+  .xl\:vertical-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .xl\:vertical-sub {
+    vertical-align: sub;
+  }
+  .xl\:vertical-super {
+    vertical-align: super;
+  }
+  .xl\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .xl\:whitespace-pre {
+    white-space: pre;
+  }
+  .xl\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .xl\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .xl\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .xl\:break-words {
+    overflow-wrap: break-word;
+  }
+  .xl\:break-all {
+    word-break: break-all;
+  }
+  .xl\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:uppercase,
+  .xxl\:hover\:uppercase:hover,
+  .xxl\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .xxl\:lowercase,
+  .xxl\:hover\:lowercase:hover,
+  .xxl\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .xxl\:capitalize,
+  .xxl\:hover\:capitalize:hover,
+  .xxl\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .xxl\:text-truncate,
+  .xxl\:hover\:text-truncate:hover,
+  .xxl\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .xxl\:text-ellipsis,
+  .xxl\:hover\:text-ellipsis:hover,
+  .xxl\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .xxl\:text-clip,
+  .xxl\:hover\:text-clip:hover,
+  .xxl\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .xxl\:vertical-baseline {
+    vertical-align: baseline;
+  }
+  .xxl\:vertical-top {
+    vertical-align: top;
+  }
+  .xxl\:vertical-middle {
+    vertical-align: middle;
+  }
+  .xxl\:vertical-bottom {
+    vertical-align: bottom;
+  }
+  .xxl\:vertical-text-top {
+    vertical-align: text-top;
+  }
+  .xxl\:vertical-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .xxl\:vertical-sub {
+    vertical-align: sub;
+  }
+  .xxl\:vertical-super {
+    vertical-align: super;
+  }
+  .xxl\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .xxl\:whitespace-pre {
+    white-space: pre;
+  }
+  .xxl\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .xxl\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .xxl\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .xxl\:break-words {
+    overflow-wrap: break-word;
+  }
+  .xxl\:break-all {
+    word-break: break-all;
+  }
+  .xxl\:break-keep {
+    word-break: keep-all;
+  }
+}
 .hyphens-none {
   hyphens: none;
 }
