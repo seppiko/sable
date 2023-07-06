@@ -383,6 +383,146 @@ table caption {
 }
 
 @media (min-width: 640px) {
+  .sm\:container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 640px) {
+  .sm\:container {
+    max-width: 615px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 768px) {
+  .sm\:container {
+    max-width: 722px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 1024px) {
+  .sm\:container {
+    max-width: 943px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 1280px) {
+  .sm\:container {
+    max-width: 1152px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 1536px) {
+  .sm\:container {
+    max-width: 1352px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 1920px) {
+  .sm\:container {
+    max-width: 1652px;
+  }
+}
+@media only screen and (min-width: 640px) and (min-width: 2560px) {
+  .sm\:container {
+    max-width: 2151px;
+  }
+}
+@media (min-width: 640px) {
+  .sm\:block,
+  .sm\:before\:block::before,
+  .sm\:after\:block::after {
+    display: block;
+  }
+  .sm\:inline,
+  .sm\:before\:inline::before,
+  .sm\:after\:inline::after {
+    display: inline;
+  }
+  .sm\:inline-block,
+  .sm\:before\:inline-block::before,
+  .sm\:after\:inline-block::after {
+    display: inline-block;
+  }
+  .sm\:flex,
+  .sm\:before\:flex::before,
+  .sm\:after\:flex::after {
+    display: flex;
+  }
+  .sm\:inline-flex,
+  .sm\:before\:inline-flex::before,
+  .sm\:after\:inline-flex::after {
+    display: inline-flex;
+  }
+  .sm\:table,
+  .sm\:before\:table::before,
+  .sm\:after\:table::after {
+    display: table;
+  }
+  .sm\:inline-table,
+  .sm\:before\:inline-table::before,
+  .sm\:after\:inline-table::after {
+    display: inline-table;
+  }
+  .sm\:grid,
+  .sm\:before\:grid::before,
+  .sm\:after\:grid::after {
+    display: grid;
+  }
+  .sm\:inline-grid,
+  .sm\:before\:inline-grid::before,
+  .sm\:after\:inline-grid::after {
+    display: inline-grid;
+  }
+  .sm\:hidden,
+  .sm\:before\:hidden::before,
+  .sm\:after\:hidden::after {
+    display: none;
+  }
+  .sm\:overflow-auto,
+  .sm\:before\:overflow-auto::before,
+  .sm\:after\:overflow-auto::after {
+    overflow: auto;
+  }
+  .sm\:overflow-hidden,
+  .sm\:before\:overflow-hidden::before,
+  .sm\:after\:overflow-hidden::after {
+    overflow: hidden;
+  }
+  .sm\:overflow-clip,
+  .sm\:before\:overflow-clip::before,
+  .sm\:after\:overflow-clip::after {
+    overflow: clip;
+  }
+  .sm\:overflow-visible,
+  .sm\:before\:overflow-visible::before,
+  .sm\:after\:overflow-visible::after {
+    overflow: visible;
+  }
+  .sm\:overflow-scroll,
+  .sm\:before\:overflow-scroll::before,
+  .sm\:after\:overflow-scroll::after {
+    overflow: scroll;
+  }
+  .sm\:static,
+  .sm\:before\:static::before,
+  .sm\:after\:static::after {
+    position: static;
+  }
+  .sm\:fixed,
+  .sm\:before\:fixed::before,
+  .sm\:after\:fixed::after {
+    position: fixed;
+  }
+  .sm\:absolute,
+  .sm\:before\:absolute::before,
+  .sm\:after\:absolute::after {
+    position: absolute;
+  }
+  .sm\:relative,
+  .sm\:before\:relative::before,
+  .sm\:after\:relative::after {
+    position: relative;
+  }
+  .sm\:sticky,
+  .sm\:before\:sticky::before,
+  .sm\:after\:sticky::after {
+    position: sticky;
+  }
   .sm\:visible,
   .sm\:before\:visible::before,
   .sm\:after\:visible::after {
@@ -400,6 +540,146 @@ table caption {
   }
 }
 @media (min-width: 768px) {
+  .md\:container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 640px) {
+  .md\:container {
+    max-width: 615px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  .md\:container {
+    max-width: 722px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
+  .md\:container {
+    max-width: 943px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 1280px) {
+  .md\:container {
+    max-width: 1152px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 1536px) {
+  .md\:container {
+    max-width: 1352px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 1920px) {
+  .md\:container {
+    max-width: 1652px;
+  }
+}
+@media only screen and (min-width: 768px) and (min-width: 2560px) {
+  .md\:container {
+    max-width: 2151px;
+  }
+}
+@media (min-width: 768px) {
+  .md\:block,
+  .md\:before\:block::before,
+  .md\:after\:block::after {
+    display: block;
+  }
+  .md\:inline,
+  .md\:before\:inline::before,
+  .md\:after\:inline::after {
+    display: inline;
+  }
+  .md\:inline-block,
+  .md\:before\:inline-block::before,
+  .md\:after\:inline-block::after {
+    display: inline-block;
+  }
+  .md\:flex,
+  .md\:before\:flex::before,
+  .md\:after\:flex::after {
+    display: flex;
+  }
+  .md\:inline-flex,
+  .md\:before\:inline-flex::before,
+  .md\:after\:inline-flex::after {
+    display: inline-flex;
+  }
+  .md\:table,
+  .md\:before\:table::before,
+  .md\:after\:table::after {
+    display: table;
+  }
+  .md\:inline-table,
+  .md\:before\:inline-table::before,
+  .md\:after\:inline-table::after {
+    display: inline-table;
+  }
+  .md\:grid,
+  .md\:before\:grid::before,
+  .md\:after\:grid::after {
+    display: grid;
+  }
+  .md\:inline-grid,
+  .md\:before\:inline-grid::before,
+  .md\:after\:inline-grid::after {
+    display: inline-grid;
+  }
+  .md\:hidden,
+  .md\:before\:hidden::before,
+  .md\:after\:hidden::after {
+    display: none;
+  }
+  .md\:overflow-auto,
+  .md\:before\:overflow-auto::before,
+  .md\:after\:overflow-auto::after {
+    overflow: auto;
+  }
+  .md\:overflow-hidden,
+  .md\:before\:overflow-hidden::before,
+  .md\:after\:overflow-hidden::after {
+    overflow: hidden;
+  }
+  .md\:overflow-clip,
+  .md\:before\:overflow-clip::before,
+  .md\:after\:overflow-clip::after {
+    overflow: clip;
+  }
+  .md\:overflow-visible,
+  .md\:before\:overflow-visible::before,
+  .md\:after\:overflow-visible::after {
+    overflow: visible;
+  }
+  .md\:overflow-scroll,
+  .md\:before\:overflow-scroll::before,
+  .md\:after\:overflow-scroll::after {
+    overflow: scroll;
+  }
+  .md\:static,
+  .md\:before\:static::before,
+  .md\:after\:static::after {
+    position: static;
+  }
+  .md\:fixed,
+  .md\:before\:fixed::before,
+  .md\:after\:fixed::after {
+    position: fixed;
+  }
+  .md\:absolute,
+  .md\:before\:absolute::before,
+  .md\:after\:absolute::after {
+    position: absolute;
+  }
+  .md\:relative,
+  .md\:before\:relative::before,
+  .md\:after\:relative::after {
+    position: relative;
+  }
+  .md\:sticky,
+  .md\:before\:sticky::before,
+  .md\:after\:sticky::after {
+    position: sticky;
+  }
   .md\:visible,
   .md\:before\:visible::before,
   .md\:after\:visible::after {
@@ -417,6 +697,146 @@ table caption {
   }
 }
 @media (min-width: 1024px) {
+  .lg\:container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 640px) {
+  .lg\:container {
+    max-width: 615px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
+  .lg\:container {
+    max-width: 722px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .lg\:container {
+    max-width: 943px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1280px) {
+  .lg\:container {
+    max-width: 1152px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1536px) {
+  .lg\:container {
+    max-width: 1352px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1920px) {
+  .lg\:container {
+    max-width: 1652px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 2560px) {
+  .lg\:container {
+    max-width: 2151px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:block,
+  .lg\:before\:block::before,
+  .lg\:after\:block::after {
+    display: block;
+  }
+  .lg\:inline,
+  .lg\:before\:inline::before,
+  .lg\:after\:inline::after {
+    display: inline;
+  }
+  .lg\:inline-block,
+  .lg\:before\:inline-block::before,
+  .lg\:after\:inline-block::after {
+    display: inline-block;
+  }
+  .lg\:flex,
+  .lg\:before\:flex::before,
+  .lg\:after\:flex::after {
+    display: flex;
+  }
+  .lg\:inline-flex,
+  .lg\:before\:inline-flex::before,
+  .lg\:after\:inline-flex::after {
+    display: inline-flex;
+  }
+  .lg\:table,
+  .lg\:before\:table::before,
+  .lg\:after\:table::after {
+    display: table;
+  }
+  .lg\:inline-table,
+  .lg\:before\:inline-table::before,
+  .lg\:after\:inline-table::after {
+    display: inline-table;
+  }
+  .lg\:grid,
+  .lg\:before\:grid::before,
+  .lg\:after\:grid::after {
+    display: grid;
+  }
+  .lg\:inline-grid,
+  .lg\:before\:inline-grid::before,
+  .lg\:after\:inline-grid::after {
+    display: inline-grid;
+  }
+  .lg\:hidden,
+  .lg\:before\:hidden::before,
+  .lg\:after\:hidden::after {
+    display: none;
+  }
+  .lg\:overflow-auto,
+  .lg\:before\:overflow-auto::before,
+  .lg\:after\:overflow-auto::after {
+    overflow: auto;
+  }
+  .lg\:overflow-hidden,
+  .lg\:before\:overflow-hidden::before,
+  .lg\:after\:overflow-hidden::after {
+    overflow: hidden;
+  }
+  .lg\:overflow-clip,
+  .lg\:before\:overflow-clip::before,
+  .lg\:after\:overflow-clip::after {
+    overflow: clip;
+  }
+  .lg\:overflow-visible,
+  .lg\:before\:overflow-visible::before,
+  .lg\:after\:overflow-visible::after {
+    overflow: visible;
+  }
+  .lg\:overflow-scroll,
+  .lg\:before\:overflow-scroll::before,
+  .lg\:after\:overflow-scroll::after {
+    overflow: scroll;
+  }
+  .lg\:static,
+  .lg\:before\:static::before,
+  .lg\:after\:static::after {
+    position: static;
+  }
+  .lg\:fixed,
+  .lg\:before\:fixed::before,
+  .lg\:after\:fixed::after {
+    position: fixed;
+  }
+  .lg\:absolute,
+  .lg\:before\:absolute::before,
+  .lg\:after\:absolute::after {
+    position: absolute;
+  }
+  .lg\:relative,
+  .lg\:before\:relative::before,
+  .lg\:after\:relative::after {
+    position: relative;
+  }
+  .lg\:sticky,
+  .lg\:before\:sticky::before,
+  .lg\:after\:sticky::after {
+    position: sticky;
+  }
   .lg\:visible,
   .lg\:before\:visible::before,
   .lg\:after\:visible::after {
@@ -434,6 +854,146 @@ table caption {
   }
 }
 @media (min-width: 1280px) {
+  .xl\:container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 640px) {
+  .xl\:container {
+    max-width: 615px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
+  .xl\:container {
+    max-width: 722px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 1024px) {
+  .xl\:container {
+    max-width: 943px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 1280px) {
+  .xl\:container {
+    max-width: 1152px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 1536px) {
+  .xl\:container {
+    max-width: 1352px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 1920px) {
+  .xl\:container {
+    max-width: 1652px;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-width: 2560px) {
+  .xl\:container {
+    max-width: 2151px;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:block,
+  .xl\:before\:block::before,
+  .xl\:after\:block::after {
+    display: block;
+  }
+  .xl\:inline,
+  .xl\:before\:inline::before,
+  .xl\:after\:inline::after {
+    display: inline;
+  }
+  .xl\:inline-block,
+  .xl\:before\:inline-block::before,
+  .xl\:after\:inline-block::after {
+    display: inline-block;
+  }
+  .xl\:flex,
+  .xl\:before\:flex::before,
+  .xl\:after\:flex::after {
+    display: flex;
+  }
+  .xl\:inline-flex,
+  .xl\:before\:inline-flex::before,
+  .xl\:after\:inline-flex::after {
+    display: inline-flex;
+  }
+  .xl\:table,
+  .xl\:before\:table::before,
+  .xl\:after\:table::after {
+    display: table;
+  }
+  .xl\:inline-table,
+  .xl\:before\:inline-table::before,
+  .xl\:after\:inline-table::after {
+    display: inline-table;
+  }
+  .xl\:grid,
+  .xl\:before\:grid::before,
+  .xl\:after\:grid::after {
+    display: grid;
+  }
+  .xl\:inline-grid,
+  .xl\:before\:inline-grid::before,
+  .xl\:after\:inline-grid::after {
+    display: inline-grid;
+  }
+  .xl\:hidden,
+  .xl\:before\:hidden::before,
+  .xl\:after\:hidden::after {
+    display: none;
+  }
+  .xl\:overflow-auto,
+  .xl\:before\:overflow-auto::before,
+  .xl\:after\:overflow-auto::after {
+    overflow: auto;
+  }
+  .xl\:overflow-hidden,
+  .xl\:before\:overflow-hidden::before,
+  .xl\:after\:overflow-hidden::after {
+    overflow: hidden;
+  }
+  .xl\:overflow-clip,
+  .xl\:before\:overflow-clip::before,
+  .xl\:after\:overflow-clip::after {
+    overflow: clip;
+  }
+  .xl\:overflow-visible,
+  .xl\:before\:overflow-visible::before,
+  .xl\:after\:overflow-visible::after {
+    overflow: visible;
+  }
+  .xl\:overflow-scroll,
+  .xl\:before\:overflow-scroll::before,
+  .xl\:after\:overflow-scroll::after {
+    overflow: scroll;
+  }
+  .xl\:static,
+  .xl\:before\:static::before,
+  .xl\:after\:static::after {
+    position: static;
+  }
+  .xl\:fixed,
+  .xl\:before\:fixed::before,
+  .xl\:after\:fixed::after {
+    position: fixed;
+  }
+  .xl\:absolute,
+  .xl\:before\:absolute::before,
+  .xl\:after\:absolute::after {
+    position: absolute;
+  }
+  .xl\:relative,
+  .xl\:before\:relative::before,
+  .xl\:after\:relative::after {
+    position: relative;
+  }
+  .xl\:sticky,
+  .xl\:before\:sticky::before,
+  .xl\:after\:sticky::after {
+    position: sticky;
+  }
   .xl\:visible,
   .xl\:before\:visible::before,
   .xl\:after\:visible::after {
@@ -451,6 +1011,146 @@ table caption {
   }
 }
 @media (min-width: 1536px) {
+  .xxl\:container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 640px) {
+  .xxl\:container {
+    max-width: 615px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 768px) {
+  .xxl\:container {
+    max-width: 722px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 1024px) {
+  .xxl\:container {
+    max-width: 943px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 1280px) {
+  .xxl\:container {
+    max-width: 1152px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 1536px) {
+  .xxl\:container {
+    max-width: 1352px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 1920px) {
+  .xxl\:container {
+    max-width: 1652px;
+  }
+}
+@media only screen and (min-width: 1536px) and (min-width: 2560px) {
+  .xxl\:container {
+    max-width: 2151px;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:block,
+  .xxl\:before\:block::before,
+  .xxl\:after\:block::after {
+    display: block;
+  }
+  .xxl\:inline,
+  .xxl\:before\:inline::before,
+  .xxl\:after\:inline::after {
+    display: inline;
+  }
+  .xxl\:inline-block,
+  .xxl\:before\:inline-block::before,
+  .xxl\:after\:inline-block::after {
+    display: inline-block;
+  }
+  .xxl\:flex,
+  .xxl\:before\:flex::before,
+  .xxl\:after\:flex::after {
+    display: flex;
+  }
+  .xxl\:inline-flex,
+  .xxl\:before\:inline-flex::before,
+  .xxl\:after\:inline-flex::after {
+    display: inline-flex;
+  }
+  .xxl\:table,
+  .xxl\:before\:table::before,
+  .xxl\:after\:table::after {
+    display: table;
+  }
+  .xxl\:inline-table,
+  .xxl\:before\:inline-table::before,
+  .xxl\:after\:inline-table::after {
+    display: inline-table;
+  }
+  .xxl\:grid,
+  .xxl\:before\:grid::before,
+  .xxl\:after\:grid::after {
+    display: grid;
+  }
+  .xxl\:inline-grid,
+  .xxl\:before\:inline-grid::before,
+  .xxl\:after\:inline-grid::after {
+    display: inline-grid;
+  }
+  .xxl\:hidden,
+  .xxl\:before\:hidden::before,
+  .xxl\:after\:hidden::after {
+    display: none;
+  }
+  .xxl\:overflow-auto,
+  .xxl\:before\:overflow-auto::before,
+  .xxl\:after\:overflow-auto::after {
+    overflow: auto;
+  }
+  .xxl\:overflow-hidden,
+  .xxl\:before\:overflow-hidden::before,
+  .xxl\:after\:overflow-hidden::after {
+    overflow: hidden;
+  }
+  .xxl\:overflow-clip,
+  .xxl\:before\:overflow-clip::before,
+  .xxl\:after\:overflow-clip::after {
+    overflow: clip;
+  }
+  .xxl\:overflow-visible,
+  .xxl\:before\:overflow-visible::before,
+  .xxl\:after\:overflow-visible::after {
+    overflow: visible;
+  }
+  .xxl\:overflow-scroll,
+  .xxl\:before\:overflow-scroll::before,
+  .xxl\:after\:overflow-scroll::after {
+    overflow: scroll;
+  }
+  .xxl\:static,
+  .xxl\:before\:static::before,
+  .xxl\:after\:static::after {
+    position: static;
+  }
+  .xxl\:fixed,
+  .xxl\:before\:fixed::before,
+  .xxl\:after\:fixed::after {
+    position: fixed;
+  }
+  .xxl\:absolute,
+  .xxl\:before\:absolute::before,
+  .xxl\:after\:absolute::after {
+    position: absolute;
+  }
+  .xxl\:relative,
+  .xxl\:before\:relative::before,
+  .xxl\:after\:relative::after {
+    position: relative;
+  }
+  .xxl\:sticky,
+  .xxl\:before\:sticky::before,
+  .xxl\:after\:sticky::after {
+    position: sticky;
+  }
   .xxl\:visible,
   .xxl\:before\:visible::before,
   .xxl\:after\:visible::after {
@@ -2406,6 +3106,421 @@ table caption {
   background-image: none;
 }
 
+@media (min-width: 640px) {
+  .sm\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .sm\:bg-local {
+    background-attachment: local;
+  }
+  .sm\:bg-scroll {
+    background-attachment: scroll;
+  }
+  .sm\:bg-clip-border {
+    background-clip: border-box;
+  }
+  .sm\:bg-clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:bg-clip-content {
+    background-clip: content-box;
+  }
+  .sm\:bg-clip-text {
+    background-clip: text;
+  }
+  .sm\:bg-origin-border {
+    background-origin: border-box;
+  }
+  .sm\:bg-origin-padding {
+    background-origin: padding-box;
+  }
+  .sm\:bg-origin-content {
+    background-origin: content-box;
+  }
+  .sm\:bg-bottom {
+    background-position: bottom;
+  }
+  .sm\:bg-center {
+    background-position: center;
+  }
+  .sm\:bg-left {
+    background-position: left;
+  }
+  .sm\:bg-left-bottom {
+    background-position: left bottom;
+  }
+  .sm\:bg-left-top {
+    background-position: left top;
+  }
+  .sm\:bg-right {
+    background-position: right;
+  }
+  .sm\:bg-right-bottom {
+    background-position: right bottom;
+  }
+  .sm\:bg-right-top {
+    background-position: right top;
+  }
+  .sm\:bg-top {
+    background-position: top;
+  }
+  .sm\:bg-repeat {
+    background-repeat: repeat;
+  }
+  .sm\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .sm\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .sm\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .sm\:bg-auto {
+    background-size: auto;
+  }
+  .sm\:bg-cover {
+    background-size: cover;
+  }
+  .sm\:bg-contain {
+    background-size: contain;
+  }
+  .sm\:bg-none {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  .md\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .md\:bg-local {
+    background-attachment: local;
+  }
+  .md\:bg-scroll {
+    background-attachment: scroll;
+  }
+  .md\:bg-clip-border {
+    background-clip: border-box;
+  }
+  .md\:bg-clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:bg-clip-content {
+    background-clip: content-box;
+  }
+  .md\:bg-clip-text {
+    background-clip: text;
+  }
+  .md\:bg-origin-border {
+    background-origin: border-box;
+  }
+  .md\:bg-origin-padding {
+    background-origin: padding-box;
+  }
+  .md\:bg-origin-content {
+    background-origin: content-box;
+  }
+  .md\:bg-bottom {
+    background-position: bottom;
+  }
+  .md\:bg-center {
+    background-position: center;
+  }
+  .md\:bg-left {
+    background-position: left;
+  }
+  .md\:bg-left-bottom {
+    background-position: left bottom;
+  }
+  .md\:bg-left-top {
+    background-position: left top;
+  }
+  .md\:bg-right {
+    background-position: right;
+  }
+  .md\:bg-right-bottom {
+    background-position: right bottom;
+  }
+  .md\:bg-right-top {
+    background-position: right top;
+  }
+  .md\:bg-top {
+    background-position: top;
+  }
+  .md\:bg-repeat {
+    background-repeat: repeat;
+  }
+  .md\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .md\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .md\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .md\:bg-auto {
+    background-size: auto;
+  }
+  .md\:bg-cover {
+    background-size: cover;
+  }
+  .md\:bg-contain {
+    background-size: contain;
+  }
+  .md\:bg-none {
+    background-image: none;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .lg\:bg-local {
+    background-attachment: local;
+  }
+  .lg\:bg-scroll {
+    background-attachment: scroll;
+  }
+  .lg\:bg-clip-border {
+    background-clip: border-box;
+  }
+  .lg\:bg-clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:bg-clip-content {
+    background-clip: content-box;
+  }
+  .lg\:bg-clip-text {
+    background-clip: text;
+  }
+  .lg\:bg-origin-border {
+    background-origin: border-box;
+  }
+  .lg\:bg-origin-padding {
+    background-origin: padding-box;
+  }
+  .lg\:bg-origin-content {
+    background-origin: content-box;
+  }
+  .lg\:bg-bottom {
+    background-position: bottom;
+  }
+  .lg\:bg-center {
+    background-position: center;
+  }
+  .lg\:bg-left {
+    background-position: left;
+  }
+  .lg\:bg-left-bottom {
+    background-position: left bottom;
+  }
+  .lg\:bg-left-top {
+    background-position: left top;
+  }
+  .lg\:bg-right {
+    background-position: right;
+  }
+  .lg\:bg-right-bottom {
+    background-position: right bottom;
+  }
+  .lg\:bg-right-top {
+    background-position: right top;
+  }
+  .lg\:bg-top {
+    background-position: top;
+  }
+  .lg\:bg-repeat {
+    background-repeat: repeat;
+  }
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .lg\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .lg\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .lg\:bg-auto {
+    background-size: auto;
+  }
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+  .lg\:bg-contain {
+    background-size: contain;
+  }
+  .lg\:bg-none {
+    background-image: none;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .xl\:bg-local {
+    background-attachment: local;
+  }
+  .xl\:bg-scroll {
+    background-attachment: scroll;
+  }
+  .xl\:bg-clip-border {
+    background-clip: border-box;
+  }
+  .xl\:bg-clip-padding {
+    background-clip: padding-box;
+  }
+  .xl\:bg-clip-content {
+    background-clip: content-box;
+  }
+  .xl\:bg-clip-text {
+    background-clip: text;
+  }
+  .xl\:bg-origin-border {
+    background-origin: border-box;
+  }
+  .xl\:bg-origin-padding {
+    background-origin: padding-box;
+  }
+  .xl\:bg-origin-content {
+    background-origin: content-box;
+  }
+  .xl\:bg-bottom {
+    background-position: bottom;
+  }
+  .xl\:bg-center {
+    background-position: center;
+  }
+  .xl\:bg-left {
+    background-position: left;
+  }
+  .xl\:bg-left-bottom {
+    background-position: left bottom;
+  }
+  .xl\:bg-left-top {
+    background-position: left top;
+  }
+  .xl\:bg-right {
+    background-position: right;
+  }
+  .xl\:bg-right-bottom {
+    background-position: right bottom;
+  }
+  .xl\:bg-right-top {
+    background-position: right top;
+  }
+  .xl\:bg-top {
+    background-position: top;
+  }
+  .xl\:bg-repeat {
+    background-repeat: repeat;
+  }
+  .xl\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .xl\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .xl\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .xl\:bg-auto {
+    background-size: auto;
+  }
+  .xl\:bg-cover {
+    background-size: cover;
+  }
+  .xl\:bg-contain {
+    background-size: contain;
+  }
+  .xl\:bg-none {
+    background-image: none;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .xxl\:bg-local {
+    background-attachment: local;
+  }
+  .xxl\:bg-scroll {
+    background-attachment: scroll;
+  }
+  .xxl\:bg-clip-border {
+    background-clip: border-box;
+  }
+  .xxl\:bg-clip-padding {
+    background-clip: padding-box;
+  }
+  .xxl\:bg-clip-content {
+    background-clip: content-box;
+  }
+  .xxl\:bg-clip-text {
+    background-clip: text;
+  }
+  .xxl\:bg-origin-border {
+    background-origin: border-box;
+  }
+  .xxl\:bg-origin-padding {
+    background-origin: padding-box;
+  }
+  .xxl\:bg-origin-content {
+    background-origin: content-box;
+  }
+  .xxl\:bg-bottom {
+    background-position: bottom;
+  }
+  .xxl\:bg-center {
+    background-position: center;
+  }
+  .xxl\:bg-left {
+    background-position: left;
+  }
+  .xxl\:bg-left-bottom {
+    background-position: left bottom;
+  }
+  .xxl\:bg-left-top {
+    background-position: left top;
+  }
+  .xxl\:bg-right {
+    background-position: right;
+  }
+  .xxl\:bg-right-bottom {
+    background-position: right bottom;
+  }
+  .xxl\:bg-right-top {
+    background-position: right top;
+  }
+  .xxl\:bg-top {
+    background-position: top;
+  }
+  .xxl\:bg-repeat {
+    background-repeat: repeat;
+  }
+  .xxl\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .xxl\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  .xxl\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  .xxl\:bg-auto {
+    background-size: auto;
+  }
+  .xxl\:bg-cover {
+    background-size: cover;
+  }
+  .xxl\:bg-contain {
+    background-size: contain;
+  }
+  .xxl\:bg-none {
+    background-image: none;
+  }
+}
 .rounded-none,
 .hover\:rounded-none:hover {
   border-radius: 0;
@@ -2451,6 +3566,11 @@ table caption {
   border-radius: 1.5rem;
 }
 
+.rounded-4xl,
+.hover\:rounded-4xl:hover {
+  border-radius: 2rem;
+}
+
 .rounded-full,
 .hover\:rounded-full:hover {
   border-radius: 9999px;
@@ -2492,6 +3612,10 @@ table caption {
   .sm\:rounded-3xl,
   .sm\:hover\:rounded-3xl:hover {
     border-radius: 1.5rem;
+  }
+  .sm\:rounded-4xl,
+  .sm\:hover\:rounded-4xl:hover {
+    border-radius: 2rem;
   }
   .sm\:rounded-full,
   .sm\:hover\:rounded-full:hover {
@@ -2535,6 +3659,10 @@ table caption {
   .md\:hover\:rounded-3xl:hover {
     border-radius: 1.5rem;
   }
+  .md\:rounded-4xl,
+  .md\:hover\:rounded-4xl:hover {
+    border-radius: 2rem;
+  }
   .md\:rounded-full,
   .md\:hover\:rounded-full:hover {
     border-radius: 9999px;
@@ -2576,6 +3704,10 @@ table caption {
   .lg\:rounded-3xl,
   .lg\:hover\:rounded-3xl:hover {
     border-radius: 1.5rem;
+  }
+  .lg\:rounded-4xl,
+  .lg\:hover\:rounded-4xl:hover {
+    border-radius: 2rem;
   }
   .lg\:rounded-full,
   .lg\:hover\:rounded-full:hover {
@@ -2619,6 +3751,10 @@ table caption {
   .xl\:hover\:rounded-3xl:hover {
     border-radius: 1.5rem;
   }
+  .xl\:rounded-4xl,
+  .xl\:hover\:rounded-4xl:hover {
+    border-radius: 2rem;
+  }
   .xl\:rounded-full,
   .xl\:hover\:rounded-full:hover {
     border-radius: 9999px;
@@ -2660,6 +3796,10 @@ table caption {
   .xxl\:rounded-3xl,
   .xxl\:hover\:rounded-3xl:hover {
     border-radius: 1.5rem;
+  }
+  .xxl\:rounded-4xl,
+  .xxl\:hover\:rounded-4xl:hover {
+    border-radius: 2rem;
   }
   .xxl\:rounded-full,
   .xxl\:hover\:rounded-full:hover {
@@ -2782,6 +3922,341 @@ table caption {
   outline-style: double;
 }
 
+@media (min-width: 640px) {
+  .sm\:border-none,
+  .sm\:hover\:border-none:hover,
+  .sm\:focus\:border-none:focus {
+    border: none;
+  }
+  .sm\:border {
+    border: 1px solid black;
+  }
+  .sm\:border-0 {
+    border-width: 0;
+  }
+  .sm\:border-1 {
+    border-width: 1px;
+  }
+  .sm\:border-solid,
+  .sm\:hover\:border-solid:hover,
+  .sm\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+  .sm\:border-dashed,
+  .sm\:hover\:border-dashed:hover,
+  .sm\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+  .sm\:border-dotted,
+  .sm\:hover\:border-dotted:hover,
+  .sm\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+  .sm\:border-double,
+  .sm\:hover\:border-double:hover,
+  .sm\:focus\:border-double:focus {
+    border-style: double;
+  }
+  .sm\:outline-none,
+  .sm\:hover\:outline-none:hover,
+  .sm\:focus\:outline-none:focus {
+    outline: none;
+  }
+  .sm\:outline-0 {
+    outline-width: 0;
+  }
+  .sm\:outline-1 {
+    outline-width: 1px;
+  }
+  .sm\:outline-solid,
+  .sm\:hover\:outline-solid:hover,
+  .sm\:focus\:outline-solid:focus {
+    outline-style: solid;
+  }
+  .sm\:outline-dashed,
+  .sm\:hover\:outline-dashed:hover,
+  .sm\:focus\:outline-dashed:focus {
+    outline-style: dashed;
+  }
+  .sm\:outline-dotted,
+  .sm\:hover\:outline-dotted:hover,
+  .sm\:focus\:outline-dotted:focus {
+    outline-style: dotted;
+  }
+  .sm\:outline-double,
+  .sm\:hover\:outline-double:hover,
+  .sm\:focus\:outline-double:focus {
+    outline-style: double;
+  }
+}
+@media (min-width: 768px) {
+  .md\:border-none,
+  .md\:hover\:border-none:hover,
+  .md\:focus\:border-none:focus {
+    border: none;
+  }
+  .md\:border {
+    border: 1px solid black;
+  }
+  .md\:border-0 {
+    border-width: 0;
+  }
+  .md\:border-1 {
+    border-width: 1px;
+  }
+  .md\:border-solid,
+  .md\:hover\:border-solid:hover,
+  .md\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+  .md\:border-dashed,
+  .md\:hover\:border-dashed:hover,
+  .md\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+  .md\:border-dotted,
+  .md\:hover\:border-dotted:hover,
+  .md\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+  .md\:border-double,
+  .md\:hover\:border-double:hover,
+  .md\:focus\:border-double:focus {
+    border-style: double;
+  }
+  .md\:outline-none,
+  .md\:hover\:outline-none:hover,
+  .md\:focus\:outline-none:focus {
+    outline: none;
+  }
+  .md\:outline-0 {
+    outline-width: 0;
+  }
+  .md\:outline-1 {
+    outline-width: 1px;
+  }
+  .md\:outline-solid,
+  .md\:hover\:outline-solid:hover,
+  .md\:focus\:outline-solid:focus {
+    outline-style: solid;
+  }
+  .md\:outline-dashed,
+  .md\:hover\:outline-dashed:hover,
+  .md\:focus\:outline-dashed:focus {
+    outline-style: dashed;
+  }
+  .md\:outline-dotted,
+  .md\:hover\:outline-dotted:hover,
+  .md\:focus\:outline-dotted:focus {
+    outline-style: dotted;
+  }
+  .md\:outline-double,
+  .md\:hover\:outline-double:hover,
+  .md\:focus\:outline-double:focus {
+    outline-style: double;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:border-none,
+  .lg\:hover\:border-none:hover,
+  .lg\:focus\:border-none:focus {
+    border: none;
+  }
+  .lg\:border {
+    border: 1px solid black;
+  }
+  .lg\:border-0 {
+    border-width: 0;
+  }
+  .lg\:border-1 {
+    border-width: 1px;
+  }
+  .lg\:border-solid,
+  .lg\:hover\:border-solid:hover,
+  .lg\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+  .lg\:border-dashed,
+  .lg\:hover\:border-dashed:hover,
+  .lg\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+  .lg\:border-dotted,
+  .lg\:hover\:border-dotted:hover,
+  .lg\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+  .lg\:border-double,
+  .lg\:hover\:border-double:hover,
+  .lg\:focus\:border-double:focus {
+    border-style: double;
+  }
+  .lg\:outline-none,
+  .lg\:hover\:outline-none:hover,
+  .lg\:focus\:outline-none:focus {
+    outline: none;
+  }
+  .lg\:outline-0 {
+    outline-width: 0;
+  }
+  .lg\:outline-1 {
+    outline-width: 1px;
+  }
+  .lg\:outline-solid,
+  .lg\:hover\:outline-solid:hover,
+  .lg\:focus\:outline-solid:focus {
+    outline-style: solid;
+  }
+  .lg\:outline-dashed,
+  .lg\:hover\:outline-dashed:hover,
+  .lg\:focus\:outline-dashed:focus {
+    outline-style: dashed;
+  }
+  .lg\:outline-dotted,
+  .lg\:hover\:outline-dotted:hover,
+  .lg\:focus\:outline-dotted:focus {
+    outline-style: dotted;
+  }
+  .lg\:outline-double,
+  .lg\:hover\:outline-double:hover,
+  .lg\:focus\:outline-double:focus {
+    outline-style: double;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:border-none,
+  .xl\:hover\:border-none:hover,
+  .xl\:focus\:border-none:focus {
+    border: none;
+  }
+  .xl\:border {
+    border: 1px solid black;
+  }
+  .xl\:border-0 {
+    border-width: 0;
+  }
+  .xl\:border-1 {
+    border-width: 1px;
+  }
+  .xl\:border-solid,
+  .xl\:hover\:border-solid:hover,
+  .xl\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+  .xl\:border-dashed,
+  .xl\:hover\:border-dashed:hover,
+  .xl\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+  .xl\:border-dotted,
+  .xl\:hover\:border-dotted:hover,
+  .xl\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+  .xl\:border-double,
+  .xl\:hover\:border-double:hover,
+  .xl\:focus\:border-double:focus {
+    border-style: double;
+  }
+  .xl\:outline-none,
+  .xl\:hover\:outline-none:hover,
+  .xl\:focus\:outline-none:focus {
+    outline: none;
+  }
+  .xl\:outline-0 {
+    outline-width: 0;
+  }
+  .xl\:outline-1 {
+    outline-width: 1px;
+  }
+  .xl\:outline-solid,
+  .xl\:hover\:outline-solid:hover,
+  .xl\:focus\:outline-solid:focus {
+    outline-style: solid;
+  }
+  .xl\:outline-dashed,
+  .xl\:hover\:outline-dashed:hover,
+  .xl\:focus\:outline-dashed:focus {
+    outline-style: dashed;
+  }
+  .xl\:outline-dotted,
+  .xl\:hover\:outline-dotted:hover,
+  .xl\:focus\:outline-dotted:focus {
+    outline-style: dotted;
+  }
+  .xl\:outline-double,
+  .xl\:hover\:outline-double:hover,
+  .xl\:focus\:outline-double:focus {
+    outline-style: double;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:border-none,
+  .xxl\:hover\:border-none:hover,
+  .xxl\:focus\:border-none:focus {
+    border: none;
+  }
+  .xxl\:border {
+    border: 1px solid black;
+  }
+  .xxl\:border-0 {
+    border-width: 0;
+  }
+  .xxl\:border-1 {
+    border-width: 1px;
+  }
+  .xxl\:border-solid,
+  .xxl\:hover\:border-solid:hover,
+  .xxl\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+  .xxl\:border-dashed,
+  .xxl\:hover\:border-dashed:hover,
+  .xxl\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+  .xxl\:border-dotted,
+  .xxl\:hover\:border-dotted:hover,
+  .xxl\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+  .xxl\:border-double,
+  .xxl\:hover\:border-double:hover,
+  .xxl\:focus\:border-double:focus {
+    border-style: double;
+  }
+  .xxl\:outline-none,
+  .xxl\:hover\:outline-none:hover,
+  .xxl\:focus\:outline-none:focus {
+    outline: none;
+  }
+  .xxl\:outline-0 {
+    outline-width: 0;
+  }
+  .xxl\:outline-1 {
+    outline-width: 1px;
+  }
+  .xxl\:outline-solid,
+  .xxl\:hover\:outline-solid:hover,
+  .xxl\:focus\:outline-solid:focus {
+    outline-style: solid;
+  }
+  .xxl\:outline-dashed,
+  .xxl\:hover\:outline-dashed:hover,
+  .xxl\:focus\:outline-dashed:focus {
+    outline-style: dashed;
+  }
+  .xxl\:outline-dotted,
+  .xxl\:hover\:outline-dotted:hover,
+  .xxl\:focus\:outline-dotted:focus {
+    outline-style: dotted;
+  }
+  .xxl\:outline-double,
+  .xxl\:hover\:outline-double:hover,
+  .xxl\:focus\:outline-double:focus {
+    outline-style: double;
+  }
+}
 .p-1\/2,
 .before\:p-1\/2::before,
 .after\:p-1\/2::after,
@@ -94136,7 +95611,6 @@ table caption {
 }
 
 .select-none {
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -94330,4 +95804,75 @@ table caption {
 
 .resize {
   resize: both;
+}
+
+@media (min-width: 640px) {
+  .sm\:resize-none {
+    resize: none;
+  }
+  .sm\:resize-y {
+    resize: vertical;
+  }
+  .sm\:resize-x {
+    resize: horizontal;
+  }
+  .sm\:resize {
+    resize: both;
+  }
+}
+@media (min-width: 768px) {
+  .md\:resize-none {
+    resize: none;
+  }
+  .md\:resize-y {
+    resize: vertical;
+  }
+  .md\:resize-x {
+    resize: horizontal;
+  }
+  .md\:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:resize-none {
+    resize: none;
+  }
+  .lg\:resize-y {
+    resize: vertical;
+  }
+  .lg\:resize-x {
+    resize: horizontal;
+  }
+  .lg\:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:resize-none {
+    resize: none;
+  }
+  .xl\:resize-y {
+    resize: vertical;
+  }
+  .xl\:resize-x {
+    resize: horizontal;
+  }
+  .xl\:resize {
+    resize: both;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:resize-none {
+    resize: none;
+  }
+  .xxl\:resize-y {
+    resize: vertical;
+  }
+  .xxl\:resize-x {
+    resize: horizontal;
+  }
+  .xxl\:resize {
+    resize: both;
+  }
 }
