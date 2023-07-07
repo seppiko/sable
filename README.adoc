@@ -2,18 +2,61 @@
 
 image:https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square[MIT License]
 image:https://img.shields.io/npm/v/@seppiko/sablecss?style=flat-square[npm]
+image:https://img.shields.io/npm/dt/@seppiko/sablecss?style=flat-square[npm(Total Downloads)]
 
-== Seppiko SableCSS Normalize
+== Used
 
-link:https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-normalize.css[sable-normalize.css]
+=== Seppiko SableCSS Normalize
 
-link:https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-normalize.min.css[sable-normalize.min.css]
+==== Release Version
 
-== Seppiko SableCSS Common
+[source,html]
+----
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<script async src="https://cdn.jsdelivr.net/npm/@seppiko/sablecss/dist/sable-normalize.css"></script>
+<!-- OR -->
+<script async src="https://cdn.jsdelivr.net/npm/@seppiko/sablecss/dist/sable-normalize.min.css"></script>
+----
 
-link:https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-common.css[sable-common.css]
+==== Development Version
 
-link:https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-common.min.css[sable-common.min.css]
+[source,html]
+----
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<script async src="https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-normalize.css"></script>
+<!-- OR -->
+<script async src="https://cdn.jsdelivr.net/gh/@seppiko/sablecss@main/sable-normalize.min.css"></script>
+----
+
+=== Seppiko SableCSS Common
+
+==== Release Version
+
+[source,html]
+----
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<script async src="https://cdn.jsdelivr.net/npm/@seppiko/sablecss/dist/sable-common.css"></script>
+<!-- OR -->
+<script async src="https://cdn.jsdelivr.net/npm/@seppiko/sablecss/dist/sable-common.min.css"></script>
+----
+
+==== Development Version
+
+[source,html]
+----
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<script async src="https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-common.css"></script>
+<!-- OR -->
+<script async src="https://cdn.jsdelivr.net/gh/seppiko/sablecss@main/sable-common.min.css"></script>
+----
 
 == Source Code
 
