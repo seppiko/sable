@@ -1,8 +1,30 @@
-= Seppiko SableCSS release for CDN
+++++
+<style>
+.text-decoration-none {
+  text-decoration: none;
+}
+</style>
 
-image:https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square[MIT License]
-image:https://img.shields.io/npm/v/@seppiko/sablecss?style=flat-square[npm]
-image:https://img.shields.io/npm/dt/@seppiko/sablecss?style=flat-square[npm(Total Downloads)]
+<p style="text-align: center;">
+  <a class="text-decoration-none" href="https://sablecss.seppiko.org" target="_blank">
+    <img alt="SableCSS" src="https://sablecss.seppiko.org/images/logo.svg" width="150" style="max-width: 100%;">
+  </a>
+</p>
+
+<p style="text-align: center;">
+  <a class="text-decoration-none" href="https://gitlab.com/seppiko/sable/sablecss/-/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License">
+  </a>
+  <a class="text-decoration-none" href="https://srl.cx/sablecss">
+    <img src="https://img.shields.io/npm/v/@seppiko/sablecss?style=flat-square" alt="Latest Release">
+  </a>
+  <a class="text-decoration-none" href="https://srl.cx/sablecss">
+    <img src="https://img.shields.io/npm/dt/@seppiko/sablecss?style=flat-square" alt="Total Downloads">
+  </a>
+</p>
+++++
+
+= Seppiko SableCSS CDN
 
 == Used
 
