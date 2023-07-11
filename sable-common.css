@@ -2999,18 +2999,22 @@ table caption {
 }
 
 .bg-clip-border {
+  -webkit-background-clip: border-box;
   background-clip: border-box;
 }
 
 .bg-clip-padding {
+  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 
 .bg-clip-content {
+  -webkit-background-clip: content-box;
   background-clip: content-box;
 }
 
 .bg-clip-text {
+  -webkit-background-clip: text;
   background-clip: text;
 }
 
@@ -3105,15 +3109,19 @@ table caption {
     background-attachment: scroll;
   }
   .sm\:bg-clip-border {
+    -webkit-background-clip: border-box;
     background-clip: border-box;
   }
   .sm\:bg-clip-padding {
+    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .sm\:bg-clip-content {
+    -webkit-background-clip: content-box;
     background-clip: content-box;
   }
   .sm\:bg-clip-text {
+    -webkit-background-clip: text;
     background-clip: text;
   }
   .sm\:bg-origin-border {
@@ -3188,15 +3196,19 @@ table caption {
     background-attachment: scroll;
   }
   .md\:bg-clip-border {
+    -webkit-background-clip: border-box;
     background-clip: border-box;
   }
   .md\:bg-clip-padding {
+    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .md\:bg-clip-content {
+    -webkit-background-clip: content-box;
     background-clip: content-box;
   }
   .md\:bg-clip-text {
+    -webkit-background-clip: text;
     background-clip: text;
   }
   .md\:bg-origin-border {
@@ -3271,15 +3283,19 @@ table caption {
     background-attachment: scroll;
   }
   .lg\:bg-clip-border {
+    -webkit-background-clip: border-box;
     background-clip: border-box;
   }
   .lg\:bg-clip-padding {
+    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .lg\:bg-clip-content {
+    -webkit-background-clip: content-box;
     background-clip: content-box;
   }
   .lg\:bg-clip-text {
+    -webkit-background-clip: text;
     background-clip: text;
   }
   .lg\:bg-origin-border {
@@ -3354,15 +3370,19 @@ table caption {
     background-attachment: scroll;
   }
   .xl\:bg-clip-border {
+    -webkit-background-clip: border-box;
     background-clip: border-box;
   }
   .xl\:bg-clip-padding {
+    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .xl\:bg-clip-content {
+    -webkit-background-clip: content-box;
     background-clip: content-box;
   }
   .xl\:bg-clip-text {
+    -webkit-background-clip: text;
     background-clip: text;
   }
   .xl\:bg-origin-border {
@@ -3437,15 +3457,19 @@ table caption {
     background-attachment: scroll;
   }
   .xxl\:bg-clip-border {
+    -webkit-background-clip: border-box;
     background-clip: border-box;
   }
   .xxl\:bg-clip-padding {
+    -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
   .xxl\:bg-clip-content {
+    -webkit-background-clip: content-box;
     background-clip: content-box;
   }
   .xxl\:bg-clip-text {
+    -webkit-background-clip: text;
     background-clip: text;
   }
   .xxl\:bg-origin-border {
@@ -94337,6 +94361,11 @@ table caption {
 .hover\:text-shadow-none:hover,
 .focus\:text-shadow-none:focus {
   text-shadow: none;
+}
+
+.text-fill-transparent {
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 .normal-nums {
