@@ -2888,6 +2888,136 @@ table caption {
     grid-auto-rows: auto;
   }
 }
+.transition-none {
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  transition-property: none;
+}
+
+.ease-linear {
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.duration-75 {
+  -webkit-transition-duration: 75ms;
+  -moz-transition-duration: 75ms;
+  transition-duration: 75ms;
+}
+
+.delay-75 {
+  -webkit-transition-delay: 75ms;
+  -moz-transition-delay: 75ms;
+  transition-delay: 75ms;
+}
+
+.duration-100 {
+  -webkit-transition-duration: 100ms;
+  -moz-transition-duration: 100ms;
+  transition-duration: 100ms;
+}
+
+.delay-100 {
+  -webkit-transition-delay: 100ms;
+  -moz-transition-delay: 100ms;
+  transition-delay: 100ms;
+}
+
+.duration-150 {
+  -webkit-transition-duration: 150ms;
+  -moz-transition-duration: 150ms;
+  transition-duration: 150ms;
+}
+
+.delay-150 {
+  -webkit-transition-delay: 150ms;
+  -moz-transition-delay: 150ms;
+  transition-delay: 150ms;
+}
+
+.duration-200 {
+  -webkit-transition-duration: 200ms;
+  -moz-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+.delay-200 {
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  transition-delay: 200ms;
+}
+
+.duration-300 {
+  -webkit-transition-duration: 300ms;
+  -moz-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+
+.delay-300 {
+  -webkit-transition-delay: 300ms;
+  -moz-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+.duration-500 {
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.delay-500 {
+  -webkit-transition-delay: 500ms;
+  -moz-transition-delay: 500ms;
+  transition-delay: 500ms;
+}
+
+.duration-700 {
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  transition-duration: 700ms;
+}
+
+.delay-700 {
+  -webkit-transition-delay: 700ms;
+  -moz-transition-delay: 700ms;
+  transition-delay: 700ms;
+}
+
+.duration-1000 {
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.delay-1000 {
+  -webkit-transition-delay: 1000ms;
+  -moz-transition-delay: 1000ms;
+  transition-delay: 1000ms;
+}
+
+.animate-none {
+  animation: none;
+}
+
 .transform-none {
   transform: none;
 }
@@ -2974,16 +3104,6 @@ table caption {
 
 .origin-top-left {
   transform-origin: top left;
-}
-
-.transition-none {
-  -webkit-transition-property: none;
-  -moz-transition-property: none;
-  transition-property: none;
-}
-
-.animate-none {
-  animation: none;
 }
 
 .bg-fixed {
@@ -93998,226 +94118,6 @@ table caption {
   font-style: normal;
 }
 
-@media (min-width: 640px) {
-  .sm\:font-thin,
-  .sm\:hover\:font-thin:hover {
-    font-weight: 100;
-  }
-  .sm\:font-extralight,
-  .sm\:hover\:font-extralight:hover {
-    font-weight: 200;
-  }
-  .sm\:font-light,
-  .sm\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-  .sm\:font-normal,
-  .sm\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-  .sm\:font-medium,
-  .sm\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-  .sm\:font-semibold,
-  .sm\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-  .sm\:font-bold,
-  .sm\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-  .sm\:font-extrabold,
-  .sm\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-  .sm\:font-black,
-  .sm\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-  .sm\:italic {
-    font-style: italic;
-  }
-  .sm\:not-italic {
-    font-style: normal;
-  }
-}
-@media (min-width: 768px) {
-  .md\:font-thin,
-  .md\:hover\:font-thin:hover {
-    font-weight: 100;
-  }
-  .md\:font-extralight,
-  .md\:hover\:font-extralight:hover {
-    font-weight: 200;
-  }
-  .md\:font-light,
-  .md\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-  .md\:font-normal,
-  .md\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-  .md\:font-medium,
-  .md\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-  .md\:font-semibold,
-  .md\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-  .md\:font-bold,
-  .md\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-  .md\:font-extrabold,
-  .md\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-  .md\:font-black,
-  .md\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-  .md\:italic {
-    font-style: italic;
-  }
-  .md\:not-italic {
-    font-style: normal;
-  }
-}
-@media (min-width: 1024px) {
-  .lg\:font-thin,
-  .lg\:hover\:font-thin:hover {
-    font-weight: 100;
-  }
-  .lg\:font-extralight,
-  .lg\:hover\:font-extralight:hover {
-    font-weight: 200;
-  }
-  .lg\:font-light,
-  .lg\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-  .lg\:font-normal,
-  .lg\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-  .lg\:font-medium,
-  .lg\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-  .lg\:font-semibold,
-  .lg\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-  .lg\:font-bold,
-  .lg\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-  .lg\:font-extrabold,
-  .lg\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-  .lg\:font-black,
-  .lg\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-  .lg\:italic {
-    font-style: italic;
-  }
-  .lg\:not-italic {
-    font-style: normal;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:font-thin,
-  .xl\:hover\:font-thin:hover {
-    font-weight: 100;
-  }
-  .xl\:font-extralight,
-  .xl\:hover\:font-extralight:hover {
-    font-weight: 200;
-  }
-  .xl\:font-light,
-  .xl\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-  .xl\:font-normal,
-  .xl\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-  .xl\:font-medium,
-  .xl\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-  .xl\:font-semibold,
-  .xl\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-  .xl\:font-bold,
-  .xl\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-  .xl\:font-extrabold,
-  .xl\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-  .xl\:font-black,
-  .xl\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-  .xl\:italic {
-    font-style: italic;
-  }
-  .xl\:not-italic {
-    font-style: normal;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl\:font-thin,
-  .xxl\:hover\:font-thin:hover {
-    font-weight: 100;
-  }
-  .xxl\:font-extralight,
-  .xxl\:hover\:font-extralight:hover {
-    font-weight: 200;
-  }
-  .xxl\:font-light,
-  .xxl\:hover\:font-light:hover {
-    font-weight: 300;
-  }
-  .xxl\:font-normal,
-  .xxl\:hover\:font-normal:hover {
-    font-weight: 400;
-  }
-  .xxl\:font-medium,
-  .xxl\:hover\:font-medium:hover {
-    font-weight: 500;
-  }
-  .xxl\:font-semibold,
-  .xxl\:hover\:font-semibold:hover {
-    font-weight: 600;
-  }
-  .xxl\:font-bold,
-  .xxl\:hover\:font-bold:hover {
-    font-weight: 700;
-  }
-  .xxl\:font-extrabold,
-  .xxl\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-  .xxl\:font-black,
-  .xxl\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-  .xxl\:italic {
-    font-style: italic;
-  }
-  .xxl\:not-italic {
-    font-style: normal;
-  }
-}
 .text-xs {
   font-size: 0.75rem;
 }
@@ -94318,406 +94218,6 @@ table caption {
   letter-spacing: 0.1em;
 }
 
-@media (min-width: 640px) {
-  .sm\:text-xs {
-    font-size: 0.75rem;
-  }
-  .sm\:text-sm {
-    font-size: 0.875rem;
-  }
-  .sm\:text-base {
-    font-size: 1rem;
-  }
-  .sm\:text-md {
-    font-size: 1.25rem;
-  }
-  .sm\:text-lg {
-    font-size: 1.5rem;
-  }
-  .sm\:text-xl {
-    font-size: 2rem;
-  }
-  .sm\:text-2xl {
-    font-size: 2.5rem;
-  }
-  .sm\:text-3xl {
-    font-size: 3rem;
-  }
-  .sm\:text-4xl {
-    font-size: 3.5rem;
-  }
-  .sm\:text-5xl {
-    font-size: 4rem;
-  }
-  .sm\:leading-none {
-    line-height: 1;
-  }
-  .sm\:leading-tight {
-    line-height: 1.25;
-  }
-  .sm\:leading-snug {
-    line-height: 1.375;
-  }
-  .sm\:leading-normal {
-    line-height: 1.5;
-  }
-  .sm\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .sm\:leading-loose {
-    line-height: 2;
-  }
-  .sm\:tracking-tighter,
-  .sm\:hover\:tracking-tighter:hover,
-  .sm\:focus\:tracking-tighter:focus {
-    letter-spacing: -0.05em;
-  }
-  .sm\:tracking-tight,
-  .sm\:hover\:tracking-tight:hover,
-  .sm\:focus\:tracking-tight:focus {
-    letter-spacing: -0.025em;
-  }
-  .sm\:tracking-normal,
-  .sm\:hover\:tracking-normal:hover,
-  .sm\:focus\:tracking-normal:focus {
-    letter-spacing: 0em;
-  }
-  .sm\:tracking-wide,
-  .sm\:hover\:tracking-wide:hover,
-  .sm\:focus\:tracking-wide:focus {
-    letter-spacing: 0.025em;
-  }
-  .sm\:tracking-wider,
-  .sm\:hover\:tracking-wider:hover,
-  .sm\:focus\:tracking-wider:focus {
-    letter-spacing: 0.05em;
-  }
-  .sm\:tracking-widest,
-  .sm\:hover\:tracking-widest:hover,
-  .sm\:focus\:tracking-widest:focus {
-    letter-spacing: 0.1em;
-  }
-}
-@media (min-width: 768px) {
-  .md\:text-xs {
-    font-size: 0.75rem;
-  }
-  .md\:text-sm {
-    font-size: 0.875rem;
-  }
-  .md\:text-base {
-    font-size: 1rem;
-  }
-  .md\:text-md {
-    font-size: 1.25rem;
-  }
-  .md\:text-lg {
-    font-size: 1.5rem;
-  }
-  .md\:text-xl {
-    font-size: 2rem;
-  }
-  .md\:text-2xl {
-    font-size: 2.5rem;
-  }
-  .md\:text-3xl {
-    font-size: 3rem;
-  }
-  .md\:text-4xl {
-    font-size: 3.5rem;
-  }
-  .md\:text-5xl {
-    font-size: 4rem;
-  }
-  .md\:leading-none {
-    line-height: 1;
-  }
-  .md\:leading-tight {
-    line-height: 1.25;
-  }
-  .md\:leading-snug {
-    line-height: 1.375;
-  }
-  .md\:leading-normal {
-    line-height: 1.5;
-  }
-  .md\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .md\:leading-loose {
-    line-height: 2;
-  }
-  .md\:tracking-tighter,
-  .md\:hover\:tracking-tighter:hover,
-  .md\:focus\:tracking-tighter:focus {
-    letter-spacing: -0.05em;
-  }
-  .md\:tracking-tight,
-  .md\:hover\:tracking-tight:hover,
-  .md\:focus\:tracking-tight:focus {
-    letter-spacing: -0.025em;
-  }
-  .md\:tracking-normal,
-  .md\:hover\:tracking-normal:hover,
-  .md\:focus\:tracking-normal:focus {
-    letter-spacing: 0em;
-  }
-  .md\:tracking-wide,
-  .md\:hover\:tracking-wide:hover,
-  .md\:focus\:tracking-wide:focus {
-    letter-spacing: 0.025em;
-  }
-  .md\:tracking-wider,
-  .md\:hover\:tracking-wider:hover,
-  .md\:focus\:tracking-wider:focus {
-    letter-spacing: 0.05em;
-  }
-  .md\:tracking-widest,
-  .md\:hover\:tracking-widest:hover,
-  .md\:focus\:tracking-widest:focus {
-    letter-spacing: 0.1em;
-  }
-}
-@media (min-width: 1024px) {
-  .lg\:text-xs {
-    font-size: 0.75rem;
-  }
-  .lg\:text-sm {
-    font-size: 0.875rem;
-  }
-  .lg\:text-base {
-    font-size: 1rem;
-  }
-  .lg\:text-md {
-    font-size: 1.25rem;
-  }
-  .lg\:text-lg {
-    font-size: 1.5rem;
-  }
-  .lg\:text-xl {
-    font-size: 2rem;
-  }
-  .lg\:text-2xl {
-    font-size: 2.5rem;
-  }
-  .lg\:text-3xl {
-    font-size: 3rem;
-  }
-  .lg\:text-4xl {
-    font-size: 3.5rem;
-  }
-  .lg\:text-5xl {
-    font-size: 4rem;
-  }
-  .lg\:leading-none {
-    line-height: 1;
-  }
-  .lg\:leading-tight {
-    line-height: 1.25;
-  }
-  .lg\:leading-snug {
-    line-height: 1.375;
-  }
-  .lg\:leading-normal {
-    line-height: 1.5;
-  }
-  .lg\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .lg\:leading-loose {
-    line-height: 2;
-  }
-  .lg\:tracking-tighter,
-  .lg\:hover\:tracking-tighter:hover,
-  .lg\:focus\:tracking-tighter:focus {
-    letter-spacing: -0.05em;
-  }
-  .lg\:tracking-tight,
-  .lg\:hover\:tracking-tight:hover,
-  .lg\:focus\:tracking-tight:focus {
-    letter-spacing: -0.025em;
-  }
-  .lg\:tracking-normal,
-  .lg\:hover\:tracking-normal:hover,
-  .lg\:focus\:tracking-normal:focus {
-    letter-spacing: 0em;
-  }
-  .lg\:tracking-wide,
-  .lg\:hover\:tracking-wide:hover,
-  .lg\:focus\:tracking-wide:focus {
-    letter-spacing: 0.025em;
-  }
-  .lg\:tracking-wider,
-  .lg\:hover\:tracking-wider:hover,
-  .lg\:focus\:tracking-wider:focus {
-    letter-spacing: 0.05em;
-  }
-  .lg\:tracking-widest,
-  .lg\:hover\:tracking-widest:hover,
-  .lg\:focus\:tracking-widest:focus {
-    letter-spacing: 0.1em;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:text-xs {
-    font-size: 0.75rem;
-  }
-  .xl\:text-sm {
-    font-size: 0.875rem;
-  }
-  .xl\:text-base {
-    font-size: 1rem;
-  }
-  .xl\:text-md {
-    font-size: 1.25rem;
-  }
-  .xl\:text-lg {
-    font-size: 1.5rem;
-  }
-  .xl\:text-xl {
-    font-size: 2rem;
-  }
-  .xl\:text-2xl {
-    font-size: 2.5rem;
-  }
-  .xl\:text-3xl {
-    font-size: 3rem;
-  }
-  .xl\:text-4xl {
-    font-size: 3.5rem;
-  }
-  .xl\:text-5xl {
-    font-size: 4rem;
-  }
-  .xl\:leading-none {
-    line-height: 1;
-  }
-  .xl\:leading-tight {
-    line-height: 1.25;
-  }
-  .xl\:leading-snug {
-    line-height: 1.375;
-  }
-  .xl\:leading-normal {
-    line-height: 1.5;
-  }
-  .xl\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .xl\:leading-loose {
-    line-height: 2;
-  }
-  .xl\:tracking-tighter,
-  .xl\:hover\:tracking-tighter:hover,
-  .xl\:focus\:tracking-tighter:focus {
-    letter-spacing: -0.05em;
-  }
-  .xl\:tracking-tight,
-  .xl\:hover\:tracking-tight:hover,
-  .xl\:focus\:tracking-tight:focus {
-    letter-spacing: -0.025em;
-  }
-  .xl\:tracking-normal,
-  .xl\:hover\:tracking-normal:hover,
-  .xl\:focus\:tracking-normal:focus {
-    letter-spacing: 0em;
-  }
-  .xl\:tracking-wide,
-  .xl\:hover\:tracking-wide:hover,
-  .xl\:focus\:tracking-wide:focus {
-    letter-spacing: 0.025em;
-  }
-  .xl\:tracking-wider,
-  .xl\:hover\:tracking-wider:hover,
-  .xl\:focus\:tracking-wider:focus {
-    letter-spacing: 0.05em;
-  }
-  .xl\:tracking-widest,
-  .xl\:hover\:tracking-widest:hover,
-  .xl\:focus\:tracking-widest:focus {
-    letter-spacing: 0.1em;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl\:text-xs {
-    font-size: 0.75rem;
-  }
-  .xxl\:text-sm {
-    font-size: 0.875rem;
-  }
-  .xxl\:text-base {
-    font-size: 1rem;
-  }
-  .xxl\:text-md {
-    font-size: 1.25rem;
-  }
-  .xxl\:text-lg {
-    font-size: 1.5rem;
-  }
-  .xxl\:text-xl {
-    font-size: 2rem;
-  }
-  .xxl\:text-2xl {
-    font-size: 2.5rem;
-  }
-  .xxl\:text-3xl {
-    font-size: 3rem;
-  }
-  .xxl\:text-4xl {
-    font-size: 3.5rem;
-  }
-  .xxl\:text-5xl {
-    font-size: 4rem;
-  }
-  .xxl\:leading-none {
-    line-height: 1;
-  }
-  .xxl\:leading-tight {
-    line-height: 1.25;
-  }
-  .xxl\:leading-snug {
-    line-height: 1.375;
-  }
-  .xxl\:leading-normal {
-    line-height: 1.5;
-  }
-  .xxl\:leading-relaxed {
-    line-height: 1.625;
-  }
-  .xxl\:leading-loose {
-    line-height: 2;
-  }
-  .xxl\:tracking-tighter,
-  .xxl\:hover\:tracking-tighter:hover,
-  .xxl\:focus\:tracking-tighter:focus {
-    letter-spacing: -0.05em;
-  }
-  .xxl\:tracking-tight,
-  .xxl\:hover\:tracking-tight:hover,
-  .xxl\:focus\:tracking-tight:focus {
-    letter-spacing: -0.025em;
-  }
-  .xxl\:tracking-normal,
-  .xxl\:hover\:tracking-normal:hover,
-  .xxl\:focus\:tracking-normal:focus {
-    letter-spacing: 0em;
-  }
-  .xxl\:tracking-wide,
-  .xxl\:hover\:tracking-wide:hover,
-  .xxl\:focus\:tracking-wide:focus {
-    letter-spacing: 0.025em;
-  }
-  .xxl\:tracking-wider,
-  .xxl\:hover\:tracking-wider:hover,
-  .xxl\:focus\:tracking-wider:focus {
-    letter-spacing: 0.05em;
-  }
-  .xxl\:tracking-widest,
-  .xxl\:hover\:tracking-widest:hover,
-  .xxl\:focus\:tracking-widest:focus {
-    letter-spacing: 0.1em;
-  }
-}
 .text-shadow-none,
 .hover\:text-shadow-none:hover,
 .focus\:text-shadow-none:focus {
@@ -94861,326 +94361,6 @@ table caption {
   text-decoration-style: wavy;
 }
 
-@media (min-width: 640px) {
-  .sm\:text-right {
-    text-align: right;
-  }
-  .sm\:text-center {
-    text-align: center;
-  }
-  .sm\:text-left {
-    text-align: left;
-  }
-  .sm\:text-justify {
-    text-align: justify;
-  }
-  .sm\:decoration-none,
-  .sm\:hover\:decoration-none:hover,
-  .sm\:focus\:decoration-none:focus {
-    text-decoration: none;
-  }
-  .sm\:no-underline,
-  .sm\:hover\:no-underline:hover,
-  .sm\:focus\:no-underline:focus {
-    text-decoration-line: none;
-  }
-  .sm\:underline,
-  .sm\:hover\:underline:hover,
-  .sm\:focus\:underline:focus {
-    text-decoration-line: underline;
-  }
-  .sm\:overline,
-  .sm\:hover\:overline:hover,
-  .sm\:focus\:overline:focus {
-    text-decoration-line: overline;
-  }
-  .sm\:line-through,
-  .sm\:hover\:line-through:hover,
-  .sm\:focus\:line-through:focus {
-    text-decoration-line: line-through;
-  }
-  .sm\:decoration-solid,
-  .sm\:hover\:decoration-solid:hover,
-  .sm\:focus\:decoration-solid:focus {
-    text-decoration-style: solid;
-  }
-  .sm\:decoration-double,
-  .sm\:hover\:decoration-double:hover,
-  .sm\:focus\:decoration-double:focus {
-    text-decoration-style: double;
-  }
-  .sm\:decoration-dotted,
-  .sm\:hover\:decoration-dotted:hover,
-  .sm\:focus\:decoration-dotted:focus {
-    text-decoration-style: dotted;
-  }
-  .sm\:decoration-dashed,
-  .sm\:hover\:decoration-dashed:hover,
-  .sm\:focus\:decoration-dashed:focus {
-    text-decoration-style: dashed;
-  }
-  .sm\:decoration-wavy,
-  .sm\:hover\:decoration-wavy:hover,
-  .sm\:focus\:decoration-wavy:focus {
-    text-decoration-style: wavy;
-  }
-}
-@media (min-width: 768px) {
-  .md\:text-right {
-    text-align: right;
-  }
-  .md\:text-center {
-    text-align: center;
-  }
-  .md\:text-left {
-    text-align: left;
-  }
-  .md\:text-justify {
-    text-align: justify;
-  }
-  .md\:decoration-none,
-  .md\:hover\:decoration-none:hover,
-  .md\:focus\:decoration-none:focus {
-    text-decoration: none;
-  }
-  .md\:no-underline,
-  .md\:hover\:no-underline:hover,
-  .md\:focus\:no-underline:focus {
-    text-decoration-line: none;
-  }
-  .md\:underline,
-  .md\:hover\:underline:hover,
-  .md\:focus\:underline:focus {
-    text-decoration-line: underline;
-  }
-  .md\:overline,
-  .md\:hover\:overline:hover,
-  .md\:focus\:overline:focus {
-    text-decoration-line: overline;
-  }
-  .md\:line-through,
-  .md\:hover\:line-through:hover,
-  .md\:focus\:line-through:focus {
-    text-decoration-line: line-through;
-  }
-  .md\:decoration-solid,
-  .md\:hover\:decoration-solid:hover,
-  .md\:focus\:decoration-solid:focus {
-    text-decoration-style: solid;
-  }
-  .md\:decoration-double,
-  .md\:hover\:decoration-double:hover,
-  .md\:focus\:decoration-double:focus {
-    text-decoration-style: double;
-  }
-  .md\:decoration-dotted,
-  .md\:hover\:decoration-dotted:hover,
-  .md\:focus\:decoration-dotted:focus {
-    text-decoration-style: dotted;
-  }
-  .md\:decoration-dashed,
-  .md\:hover\:decoration-dashed:hover,
-  .md\:focus\:decoration-dashed:focus {
-    text-decoration-style: dashed;
-  }
-  .md\:decoration-wavy,
-  .md\:hover\:decoration-wavy:hover,
-  .md\:focus\:decoration-wavy:focus {
-    text-decoration-style: wavy;
-  }
-}
-@media (min-width: 1024px) {
-  .lg\:text-right {
-    text-align: right;
-  }
-  .lg\:text-center {
-    text-align: center;
-  }
-  .lg\:text-left {
-    text-align: left;
-  }
-  .lg\:text-justify {
-    text-align: justify;
-  }
-  .lg\:decoration-none,
-  .lg\:hover\:decoration-none:hover,
-  .lg\:focus\:decoration-none:focus {
-    text-decoration: none;
-  }
-  .lg\:no-underline,
-  .lg\:hover\:no-underline:hover,
-  .lg\:focus\:no-underline:focus {
-    text-decoration-line: none;
-  }
-  .lg\:underline,
-  .lg\:hover\:underline:hover,
-  .lg\:focus\:underline:focus {
-    text-decoration-line: underline;
-  }
-  .lg\:overline,
-  .lg\:hover\:overline:hover,
-  .lg\:focus\:overline:focus {
-    text-decoration-line: overline;
-  }
-  .lg\:line-through,
-  .lg\:hover\:line-through:hover,
-  .lg\:focus\:line-through:focus {
-    text-decoration-line: line-through;
-  }
-  .lg\:decoration-solid,
-  .lg\:hover\:decoration-solid:hover,
-  .lg\:focus\:decoration-solid:focus {
-    text-decoration-style: solid;
-  }
-  .lg\:decoration-double,
-  .lg\:hover\:decoration-double:hover,
-  .lg\:focus\:decoration-double:focus {
-    text-decoration-style: double;
-  }
-  .lg\:decoration-dotted,
-  .lg\:hover\:decoration-dotted:hover,
-  .lg\:focus\:decoration-dotted:focus {
-    text-decoration-style: dotted;
-  }
-  .lg\:decoration-dashed,
-  .lg\:hover\:decoration-dashed:hover,
-  .lg\:focus\:decoration-dashed:focus {
-    text-decoration-style: dashed;
-  }
-  .lg\:decoration-wavy,
-  .lg\:hover\:decoration-wavy:hover,
-  .lg\:focus\:decoration-wavy:focus {
-    text-decoration-style: wavy;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:text-right {
-    text-align: right;
-  }
-  .xl\:text-center {
-    text-align: center;
-  }
-  .xl\:text-left {
-    text-align: left;
-  }
-  .xl\:text-justify {
-    text-align: justify;
-  }
-  .xl\:decoration-none,
-  .xl\:hover\:decoration-none:hover,
-  .xl\:focus\:decoration-none:focus {
-    text-decoration: none;
-  }
-  .xl\:no-underline,
-  .xl\:hover\:no-underline:hover,
-  .xl\:focus\:no-underline:focus {
-    text-decoration-line: none;
-  }
-  .xl\:underline,
-  .xl\:hover\:underline:hover,
-  .xl\:focus\:underline:focus {
-    text-decoration-line: underline;
-  }
-  .xl\:overline,
-  .xl\:hover\:overline:hover,
-  .xl\:focus\:overline:focus {
-    text-decoration-line: overline;
-  }
-  .xl\:line-through,
-  .xl\:hover\:line-through:hover,
-  .xl\:focus\:line-through:focus {
-    text-decoration-line: line-through;
-  }
-  .xl\:decoration-solid,
-  .xl\:hover\:decoration-solid:hover,
-  .xl\:focus\:decoration-solid:focus {
-    text-decoration-style: solid;
-  }
-  .xl\:decoration-double,
-  .xl\:hover\:decoration-double:hover,
-  .xl\:focus\:decoration-double:focus {
-    text-decoration-style: double;
-  }
-  .xl\:decoration-dotted,
-  .xl\:hover\:decoration-dotted:hover,
-  .xl\:focus\:decoration-dotted:focus {
-    text-decoration-style: dotted;
-  }
-  .xl\:decoration-dashed,
-  .xl\:hover\:decoration-dashed:hover,
-  .xl\:focus\:decoration-dashed:focus {
-    text-decoration-style: dashed;
-  }
-  .xl\:decoration-wavy,
-  .xl\:hover\:decoration-wavy:hover,
-  .xl\:focus\:decoration-wavy:focus {
-    text-decoration-style: wavy;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl\:text-right {
-    text-align: right;
-  }
-  .xxl\:text-center {
-    text-align: center;
-  }
-  .xxl\:text-left {
-    text-align: left;
-  }
-  .xxl\:text-justify {
-    text-align: justify;
-  }
-  .xxl\:decoration-none,
-  .xxl\:hover\:decoration-none:hover,
-  .xxl\:focus\:decoration-none:focus {
-    text-decoration: none;
-  }
-  .xxl\:no-underline,
-  .xxl\:hover\:no-underline:hover,
-  .xxl\:focus\:no-underline:focus {
-    text-decoration-line: none;
-  }
-  .xxl\:underline,
-  .xxl\:hover\:underline:hover,
-  .xxl\:focus\:underline:focus {
-    text-decoration-line: underline;
-  }
-  .xxl\:overline,
-  .xxl\:hover\:overline:hover,
-  .xxl\:focus\:overline:focus {
-    text-decoration-line: overline;
-  }
-  .xxl\:line-through,
-  .xxl\:hover\:line-through:hover,
-  .xxl\:focus\:line-through:focus {
-    text-decoration-line: line-through;
-  }
-  .xxl\:decoration-solid,
-  .xxl\:hover\:decoration-solid:hover,
-  .xxl\:focus\:decoration-solid:focus {
-    text-decoration-style: solid;
-  }
-  .xxl\:decoration-double,
-  .xxl\:hover\:decoration-double:hover,
-  .xxl\:focus\:decoration-double:focus {
-    text-decoration-style: double;
-  }
-  .xxl\:decoration-dotted,
-  .xxl\:hover\:decoration-dotted:hover,
-  .xxl\:focus\:decoration-dotted:focus {
-    text-decoration-style: dotted;
-  }
-  .xxl\:decoration-dashed,
-  .xxl\:hover\:decoration-dashed:hover,
-  .xxl\:focus\:decoration-dashed:focus {
-    text-decoration-style: dashed;
-  }
-  .xxl\:decoration-wavy,
-  .xxl\:hover\:decoration-wavy:hover,
-  .xxl\:focus\:decoration-wavy:focus {
-    text-decoration-style: wavy;
-  }
-}
 .uppercase,
 .hover\:uppercase:hover,
 .focus\:uppercase:focus {
@@ -95300,501 +94480,6 @@ table caption {
   word-break: keep-all;
 }
 
-@media (min-width: 640px) {
-  .sm\:uppercase,
-  .sm\:hover\:uppercase:hover,
-  .sm\:focus\:uppercase:focus {
-    text-transform: uppercase;
-  }
-  .sm\:lowercase,
-  .sm\:hover\:lowercase:hover,
-  .sm\:focus\:lowercase:focus {
-    text-transform: lowercase;
-  }
-  .sm\:capitalize,
-  .sm\:hover\:capitalize:hover,
-  .sm\:focus\:capitalize:focus {
-    text-transform: capitalize;
-  }
-  .sm\:text-truncate,
-  .sm\:hover\:text-truncate:hover,
-  .sm\:focus\:text-truncate:focus {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .sm\:text-ellipsis,
-  .sm\:hover\:text-ellipsis:hover,
-  .sm\:focus\:text-ellipsis:focus {
-    text-overflow: ellipsis;
-  }
-  .sm\:text-clip,
-  .sm\:hover\:text-clip:hover,
-  .sm\:focus\:text-clip:focus {
-    text-overflow: clip;
-  }
-  .sm\:vertical-baseline,
-  .sm\:before\:vertical-baseline::before,
-  .sm\:after\:vertical-baseline::after {
-    vertical-align: baseline;
-  }
-  .sm\:vertical-top,
-  .sm\:before\:vertical-top::before,
-  .sm\:after\:vertical-top::after {
-    vertical-align: top;
-  }
-  .sm\:vertical-middle,
-  .sm\:before\:vertical-middle::before,
-  .sm\:after\:vertical-middle::after {
-    vertical-align: middle;
-  }
-  .sm\:vertical-bottom,
-  .sm\:before\:vertical-bottom::before,
-  .sm\:after\:vertical-bottom::after {
-    vertical-align: bottom;
-  }
-  .sm\:vertical-text-top,
-  .sm\:before\:vertical-text-top::before,
-  .sm\:after\:vertical-text-top::after {
-    vertical-align: text-top;
-  }
-  .sm\:vertical-text-bottom,
-  .sm\:before\:vertical-text-bottom::before,
-  .sm\:after\:vertical-text-bottom::after {
-    vertical-align: text-bottom;
-  }
-  .sm\:vertical-sub,
-  .sm\:before\:vertical-sub::before,
-  .sm\:after\:vertical-sub::after {
-    vertical-align: sub;
-  }
-  .sm\:vertical-super,
-  .sm\:before\:vertical-super::before,
-  .sm\:after\:vertical-super::after {
-    vertical-align: super;
-  }
-  .sm\:whitespace-nowrap {
-    white-space: nowrap;
-  }
-  .sm\:whitespace-pre {
-    white-space: pre;
-  }
-  .sm\:whitespace-pre-line {
-    white-space: pre-line;
-  }
-  .sm\:whitespace-pre-wrap {
-    white-space: pre-wrap;
-  }
-  .sm\:break-normal {
-    overflow-wrap: normal;
-    word-break: normal;
-  }
-  .sm\:break-words {
-    overflow-wrap: break-word;
-  }
-  .sm\:break-all {
-    word-break: break-all;
-  }
-  .sm\:break-keep {
-    word-break: keep-all;
-  }
-}
-@media (min-width: 768px) {
-  .md\:uppercase,
-  .md\:hover\:uppercase:hover,
-  .md\:focus\:uppercase:focus {
-    text-transform: uppercase;
-  }
-  .md\:lowercase,
-  .md\:hover\:lowercase:hover,
-  .md\:focus\:lowercase:focus {
-    text-transform: lowercase;
-  }
-  .md\:capitalize,
-  .md\:hover\:capitalize:hover,
-  .md\:focus\:capitalize:focus {
-    text-transform: capitalize;
-  }
-  .md\:text-truncate,
-  .md\:hover\:text-truncate:hover,
-  .md\:focus\:text-truncate:focus {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .md\:text-ellipsis,
-  .md\:hover\:text-ellipsis:hover,
-  .md\:focus\:text-ellipsis:focus {
-    text-overflow: ellipsis;
-  }
-  .md\:text-clip,
-  .md\:hover\:text-clip:hover,
-  .md\:focus\:text-clip:focus {
-    text-overflow: clip;
-  }
-  .md\:vertical-baseline,
-  .md\:before\:vertical-baseline::before,
-  .md\:after\:vertical-baseline::after {
-    vertical-align: baseline;
-  }
-  .md\:vertical-top,
-  .md\:before\:vertical-top::before,
-  .md\:after\:vertical-top::after {
-    vertical-align: top;
-  }
-  .md\:vertical-middle,
-  .md\:before\:vertical-middle::before,
-  .md\:after\:vertical-middle::after {
-    vertical-align: middle;
-  }
-  .md\:vertical-bottom,
-  .md\:before\:vertical-bottom::before,
-  .md\:after\:vertical-bottom::after {
-    vertical-align: bottom;
-  }
-  .md\:vertical-text-top,
-  .md\:before\:vertical-text-top::before,
-  .md\:after\:vertical-text-top::after {
-    vertical-align: text-top;
-  }
-  .md\:vertical-text-bottom,
-  .md\:before\:vertical-text-bottom::before,
-  .md\:after\:vertical-text-bottom::after {
-    vertical-align: text-bottom;
-  }
-  .md\:vertical-sub,
-  .md\:before\:vertical-sub::before,
-  .md\:after\:vertical-sub::after {
-    vertical-align: sub;
-  }
-  .md\:vertical-super,
-  .md\:before\:vertical-super::before,
-  .md\:after\:vertical-super::after {
-    vertical-align: super;
-  }
-  .md\:whitespace-nowrap {
-    white-space: nowrap;
-  }
-  .md\:whitespace-pre {
-    white-space: pre;
-  }
-  .md\:whitespace-pre-line {
-    white-space: pre-line;
-  }
-  .md\:whitespace-pre-wrap {
-    white-space: pre-wrap;
-  }
-  .md\:break-normal {
-    overflow-wrap: normal;
-    word-break: normal;
-  }
-  .md\:break-words {
-    overflow-wrap: break-word;
-  }
-  .md\:break-all {
-    word-break: break-all;
-  }
-  .md\:break-keep {
-    word-break: keep-all;
-  }
-}
-@media (min-width: 1024px) {
-  .lg\:uppercase,
-  .lg\:hover\:uppercase:hover,
-  .lg\:focus\:uppercase:focus {
-    text-transform: uppercase;
-  }
-  .lg\:lowercase,
-  .lg\:hover\:lowercase:hover,
-  .lg\:focus\:lowercase:focus {
-    text-transform: lowercase;
-  }
-  .lg\:capitalize,
-  .lg\:hover\:capitalize:hover,
-  .lg\:focus\:capitalize:focus {
-    text-transform: capitalize;
-  }
-  .lg\:text-truncate,
-  .lg\:hover\:text-truncate:hover,
-  .lg\:focus\:text-truncate:focus {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .lg\:text-ellipsis,
-  .lg\:hover\:text-ellipsis:hover,
-  .lg\:focus\:text-ellipsis:focus {
-    text-overflow: ellipsis;
-  }
-  .lg\:text-clip,
-  .lg\:hover\:text-clip:hover,
-  .lg\:focus\:text-clip:focus {
-    text-overflow: clip;
-  }
-  .lg\:vertical-baseline,
-  .lg\:before\:vertical-baseline::before,
-  .lg\:after\:vertical-baseline::after {
-    vertical-align: baseline;
-  }
-  .lg\:vertical-top,
-  .lg\:before\:vertical-top::before,
-  .lg\:after\:vertical-top::after {
-    vertical-align: top;
-  }
-  .lg\:vertical-middle,
-  .lg\:before\:vertical-middle::before,
-  .lg\:after\:vertical-middle::after {
-    vertical-align: middle;
-  }
-  .lg\:vertical-bottom,
-  .lg\:before\:vertical-bottom::before,
-  .lg\:after\:vertical-bottom::after {
-    vertical-align: bottom;
-  }
-  .lg\:vertical-text-top,
-  .lg\:before\:vertical-text-top::before,
-  .lg\:after\:vertical-text-top::after {
-    vertical-align: text-top;
-  }
-  .lg\:vertical-text-bottom,
-  .lg\:before\:vertical-text-bottom::before,
-  .lg\:after\:vertical-text-bottom::after {
-    vertical-align: text-bottom;
-  }
-  .lg\:vertical-sub,
-  .lg\:before\:vertical-sub::before,
-  .lg\:after\:vertical-sub::after {
-    vertical-align: sub;
-  }
-  .lg\:vertical-super,
-  .lg\:before\:vertical-super::before,
-  .lg\:after\:vertical-super::after {
-    vertical-align: super;
-  }
-  .lg\:whitespace-nowrap {
-    white-space: nowrap;
-  }
-  .lg\:whitespace-pre {
-    white-space: pre;
-  }
-  .lg\:whitespace-pre-line {
-    white-space: pre-line;
-  }
-  .lg\:whitespace-pre-wrap {
-    white-space: pre-wrap;
-  }
-  .lg\:break-normal {
-    overflow-wrap: normal;
-    word-break: normal;
-  }
-  .lg\:break-words {
-    overflow-wrap: break-word;
-  }
-  .lg\:break-all {
-    word-break: break-all;
-  }
-  .lg\:break-keep {
-    word-break: keep-all;
-  }
-}
-@media (min-width: 1280px) {
-  .xl\:uppercase,
-  .xl\:hover\:uppercase:hover,
-  .xl\:focus\:uppercase:focus {
-    text-transform: uppercase;
-  }
-  .xl\:lowercase,
-  .xl\:hover\:lowercase:hover,
-  .xl\:focus\:lowercase:focus {
-    text-transform: lowercase;
-  }
-  .xl\:capitalize,
-  .xl\:hover\:capitalize:hover,
-  .xl\:focus\:capitalize:focus {
-    text-transform: capitalize;
-  }
-  .xl\:text-truncate,
-  .xl\:hover\:text-truncate:hover,
-  .xl\:focus\:text-truncate:focus {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .xl\:text-ellipsis,
-  .xl\:hover\:text-ellipsis:hover,
-  .xl\:focus\:text-ellipsis:focus {
-    text-overflow: ellipsis;
-  }
-  .xl\:text-clip,
-  .xl\:hover\:text-clip:hover,
-  .xl\:focus\:text-clip:focus {
-    text-overflow: clip;
-  }
-  .xl\:vertical-baseline,
-  .xl\:before\:vertical-baseline::before,
-  .xl\:after\:vertical-baseline::after {
-    vertical-align: baseline;
-  }
-  .xl\:vertical-top,
-  .xl\:before\:vertical-top::before,
-  .xl\:after\:vertical-top::after {
-    vertical-align: top;
-  }
-  .xl\:vertical-middle,
-  .xl\:before\:vertical-middle::before,
-  .xl\:after\:vertical-middle::after {
-    vertical-align: middle;
-  }
-  .xl\:vertical-bottom,
-  .xl\:before\:vertical-bottom::before,
-  .xl\:after\:vertical-bottom::after {
-    vertical-align: bottom;
-  }
-  .xl\:vertical-text-top,
-  .xl\:before\:vertical-text-top::before,
-  .xl\:after\:vertical-text-top::after {
-    vertical-align: text-top;
-  }
-  .xl\:vertical-text-bottom,
-  .xl\:before\:vertical-text-bottom::before,
-  .xl\:after\:vertical-text-bottom::after {
-    vertical-align: text-bottom;
-  }
-  .xl\:vertical-sub,
-  .xl\:before\:vertical-sub::before,
-  .xl\:after\:vertical-sub::after {
-    vertical-align: sub;
-  }
-  .xl\:vertical-super,
-  .xl\:before\:vertical-super::before,
-  .xl\:after\:vertical-super::after {
-    vertical-align: super;
-  }
-  .xl\:whitespace-nowrap {
-    white-space: nowrap;
-  }
-  .xl\:whitespace-pre {
-    white-space: pre;
-  }
-  .xl\:whitespace-pre-line {
-    white-space: pre-line;
-  }
-  .xl\:whitespace-pre-wrap {
-    white-space: pre-wrap;
-  }
-  .xl\:break-normal {
-    overflow-wrap: normal;
-    word-break: normal;
-  }
-  .xl\:break-words {
-    overflow-wrap: break-word;
-  }
-  .xl\:break-all {
-    word-break: break-all;
-  }
-  .xl\:break-keep {
-    word-break: keep-all;
-  }
-}
-@media (min-width: 1536px) {
-  .xxl\:uppercase,
-  .xxl\:hover\:uppercase:hover,
-  .xxl\:focus\:uppercase:focus {
-    text-transform: uppercase;
-  }
-  .xxl\:lowercase,
-  .xxl\:hover\:lowercase:hover,
-  .xxl\:focus\:lowercase:focus {
-    text-transform: lowercase;
-  }
-  .xxl\:capitalize,
-  .xxl\:hover\:capitalize:hover,
-  .xxl\:focus\:capitalize:focus {
-    text-transform: capitalize;
-  }
-  .xxl\:text-truncate,
-  .xxl\:hover\:text-truncate:hover,
-  .xxl\:focus\:text-truncate:focus {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .xxl\:text-ellipsis,
-  .xxl\:hover\:text-ellipsis:hover,
-  .xxl\:focus\:text-ellipsis:focus {
-    text-overflow: ellipsis;
-  }
-  .xxl\:text-clip,
-  .xxl\:hover\:text-clip:hover,
-  .xxl\:focus\:text-clip:focus {
-    text-overflow: clip;
-  }
-  .xxl\:vertical-baseline,
-  .xxl\:before\:vertical-baseline::before,
-  .xxl\:after\:vertical-baseline::after {
-    vertical-align: baseline;
-  }
-  .xxl\:vertical-top,
-  .xxl\:before\:vertical-top::before,
-  .xxl\:after\:vertical-top::after {
-    vertical-align: top;
-  }
-  .xxl\:vertical-middle,
-  .xxl\:before\:vertical-middle::before,
-  .xxl\:after\:vertical-middle::after {
-    vertical-align: middle;
-  }
-  .xxl\:vertical-bottom,
-  .xxl\:before\:vertical-bottom::before,
-  .xxl\:after\:vertical-bottom::after {
-    vertical-align: bottom;
-  }
-  .xxl\:vertical-text-top,
-  .xxl\:before\:vertical-text-top::before,
-  .xxl\:after\:vertical-text-top::after {
-    vertical-align: text-top;
-  }
-  .xxl\:vertical-text-bottom,
-  .xxl\:before\:vertical-text-bottom::before,
-  .xxl\:after\:vertical-text-bottom::after {
-    vertical-align: text-bottom;
-  }
-  .xxl\:vertical-sub,
-  .xxl\:before\:vertical-sub::before,
-  .xxl\:after\:vertical-sub::after {
-    vertical-align: sub;
-  }
-  .xxl\:vertical-super,
-  .xxl\:before\:vertical-super::before,
-  .xxl\:after\:vertical-super::after {
-    vertical-align: super;
-  }
-  .xxl\:whitespace-nowrap {
-    white-space: nowrap;
-  }
-  .xxl\:whitespace-pre {
-    white-space: pre;
-  }
-  .xxl\:whitespace-pre-line {
-    white-space: pre-line;
-  }
-  .xxl\:whitespace-pre-wrap {
-    white-space: pre-wrap;
-  }
-  .xxl\:break-normal {
-    overflow-wrap: normal;
-    word-break: normal;
-  }
-  .xxl\:break-words {
-    overflow-wrap: break-word;
-  }
-  .xxl\:break-all {
-    word-break: break-all;
-  }
-  .xxl\:break-keep {
-    word-break: keep-all;
-  }
-}
 .hyphens-none {
   hyphens: none;
 }
@@ -95903,6 +94588,1411 @@ table caption {
   opacity: 0;
 }
 
+@media (min-width: 640px) {
+  .sm\:font-thin,
+  .sm\:hover\:font-thin:hover {
+    font-weight: 100;
+  }
+  .sm\:font-extralight,
+  .sm\:hover\:font-extralight:hover {
+    font-weight: 200;
+  }
+  .sm\:font-light,
+  .sm\:hover\:font-light:hover {
+    font-weight: 300;
+  }
+  .sm\:font-normal,
+  .sm\:hover\:font-normal:hover {
+    font-weight: 400;
+  }
+  .sm\:font-medium,
+  .sm\:hover\:font-medium:hover {
+    font-weight: 500;
+  }
+  .sm\:font-semibold,
+  .sm\:hover\:font-semibold:hover {
+    font-weight: 600;
+  }
+  .sm\:font-bold,
+  .sm\:hover\:font-bold:hover {
+    font-weight: 700;
+  }
+  .sm\:font-extrabold,
+  .sm\:hover\:font-extrabold:hover {
+    font-weight: 800;
+  }
+  .sm\:font-black,
+  .sm\:hover\:font-black:hover {
+    font-weight: 900;
+  }
+  .sm\:italic {
+    font-style: italic;
+  }
+  .sm\:not-italic {
+    font-style: normal;
+  }
+  .sm\:text-xs {
+    font-size: 0.75rem;
+  }
+  .sm\:text-sm {
+    font-size: 0.875rem;
+  }
+  .sm\:text-base {
+    font-size: 1rem;
+  }
+  .sm\:text-md {
+    font-size: 1.25rem;
+  }
+  .sm\:text-lg {
+    font-size: 1.5rem;
+  }
+  .sm\:text-xl {
+    font-size: 2rem;
+  }
+  .sm\:text-2xl {
+    font-size: 2.5rem;
+  }
+  .sm\:text-3xl {
+    font-size: 3rem;
+  }
+  .sm\:text-4xl {
+    font-size: 3.5rem;
+  }
+  .sm\:text-5xl {
+    font-size: 4rem;
+  }
+  .sm\:leading-none {
+    line-height: 1;
+  }
+  .sm\:leading-tight {
+    line-height: 1.25;
+  }
+  .sm\:leading-snug {
+    line-height: 1.375;
+  }
+  .sm\:leading-normal {
+    line-height: 1.5;
+  }
+  .sm\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .sm\:leading-loose {
+    line-height: 2;
+  }
+  .sm\:tracking-tighter,
+  .sm\:hover\:tracking-tighter:hover,
+  .sm\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .sm\:tracking-tight,
+  .sm\:hover\:tracking-tight:hover,
+  .sm\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .sm\:tracking-normal,
+  .sm\:hover\:tracking-normal:hover,
+  .sm\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .sm\:tracking-wide,
+  .sm\:hover\:tracking-wide:hover,
+  .sm\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .sm\:tracking-wider,
+  .sm\:hover\:tracking-wider:hover,
+  .sm\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .sm\:tracking-widest,
+  .sm\:hover\:tracking-widest:hover,
+  .sm\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
+  .sm\:text-right {
+    text-align: right;
+  }
+  .sm\:text-center {
+    text-align: center;
+  }
+  .sm\:text-left {
+    text-align: left;
+  }
+  .sm\:text-justify {
+    text-align: justify;
+  }
+  .sm\:decoration-none,
+  .sm\:hover\:decoration-none:hover,
+  .sm\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .sm\:no-underline,
+  .sm\:hover\:no-underline:hover,
+  .sm\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .sm\:underline,
+  .sm\:hover\:underline:hover,
+  .sm\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .sm\:overline,
+  .sm\:hover\:overline:hover,
+  .sm\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .sm\:line-through,
+  .sm\:hover\:line-through:hover,
+  .sm\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .sm\:decoration-solid,
+  .sm\:hover\:decoration-solid:hover,
+  .sm\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .sm\:decoration-double,
+  .sm\:hover\:decoration-double:hover,
+  .sm\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .sm\:decoration-dotted,
+  .sm\:hover\:decoration-dotted:hover,
+  .sm\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .sm\:decoration-dashed,
+  .sm\:hover\:decoration-dashed:hover,
+  .sm\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .sm\:decoration-wavy,
+  .sm\:hover\:decoration-wavy:hover,
+  .sm\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+  .sm\:uppercase,
+  .sm\:hover\:uppercase:hover,
+  .sm\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .sm\:lowercase,
+  .sm\:hover\:lowercase:hover,
+  .sm\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .sm\:capitalize,
+  .sm\:hover\:capitalize:hover,
+  .sm\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .sm\:text-truncate,
+  .sm\:hover\:text-truncate:hover,
+  .sm\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sm\:text-ellipsis,
+  .sm\:hover\:text-ellipsis:hover,
+  .sm\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .sm\:text-clip,
+  .sm\:hover\:text-clip:hover,
+  .sm\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .sm\:vertical-baseline,
+  .sm\:before\:vertical-baseline::before,
+  .sm\:after\:vertical-baseline::after {
+    vertical-align: baseline;
+  }
+  .sm\:vertical-top,
+  .sm\:before\:vertical-top::before,
+  .sm\:after\:vertical-top::after {
+    vertical-align: top;
+  }
+  .sm\:vertical-middle,
+  .sm\:before\:vertical-middle::before,
+  .sm\:after\:vertical-middle::after {
+    vertical-align: middle;
+  }
+  .sm\:vertical-bottom,
+  .sm\:before\:vertical-bottom::before,
+  .sm\:after\:vertical-bottom::after {
+    vertical-align: bottom;
+  }
+  .sm\:vertical-text-top,
+  .sm\:before\:vertical-text-top::before,
+  .sm\:after\:vertical-text-top::after {
+    vertical-align: text-top;
+  }
+  .sm\:vertical-text-bottom,
+  .sm\:before\:vertical-text-bottom::before,
+  .sm\:after\:vertical-text-bottom::after {
+    vertical-align: text-bottom;
+  }
+  .sm\:vertical-sub,
+  .sm\:before\:vertical-sub::before,
+  .sm\:after\:vertical-sub::after {
+    vertical-align: sub;
+  }
+  .sm\:vertical-super,
+  .sm\:before\:vertical-super::before,
+  .sm\:after\:vertical-super::after {
+    vertical-align: super;
+  }
+  .sm\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .sm\:whitespace-pre {
+    white-space: pre;
+  }
+  .sm\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .sm\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .sm\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .sm\:break-words {
+    overflow-wrap: break-word;
+  }
+  .sm\:break-all {
+    word-break: break-all;
+  }
+  .sm\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 768px) {
+  .md\:font-thin,
+  .md\:hover\:font-thin:hover {
+    font-weight: 100;
+  }
+  .md\:font-extralight,
+  .md\:hover\:font-extralight:hover {
+    font-weight: 200;
+  }
+  .md\:font-light,
+  .md\:hover\:font-light:hover {
+    font-weight: 300;
+  }
+  .md\:font-normal,
+  .md\:hover\:font-normal:hover {
+    font-weight: 400;
+  }
+  .md\:font-medium,
+  .md\:hover\:font-medium:hover {
+    font-weight: 500;
+  }
+  .md\:font-semibold,
+  .md\:hover\:font-semibold:hover {
+    font-weight: 600;
+  }
+  .md\:font-bold,
+  .md\:hover\:font-bold:hover {
+    font-weight: 700;
+  }
+  .md\:font-extrabold,
+  .md\:hover\:font-extrabold:hover {
+    font-weight: 800;
+  }
+  .md\:font-black,
+  .md\:hover\:font-black:hover {
+    font-weight: 900;
+  }
+  .md\:italic {
+    font-style: italic;
+  }
+  .md\:not-italic {
+    font-style: normal;
+  }
+  .md\:text-xs {
+    font-size: 0.75rem;
+  }
+  .md\:text-sm {
+    font-size: 0.875rem;
+  }
+  .md\:text-base {
+    font-size: 1rem;
+  }
+  .md\:text-md {
+    font-size: 1.25rem;
+  }
+  .md\:text-lg {
+    font-size: 1.5rem;
+  }
+  .md\:text-xl {
+    font-size: 2rem;
+  }
+  .md\:text-2xl {
+    font-size: 2.5rem;
+  }
+  .md\:text-3xl {
+    font-size: 3rem;
+  }
+  .md\:text-4xl {
+    font-size: 3.5rem;
+  }
+  .md\:text-5xl {
+    font-size: 4rem;
+  }
+  .md\:leading-none {
+    line-height: 1;
+  }
+  .md\:leading-tight {
+    line-height: 1.25;
+  }
+  .md\:leading-snug {
+    line-height: 1.375;
+  }
+  .md\:leading-normal {
+    line-height: 1.5;
+  }
+  .md\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .md\:leading-loose {
+    line-height: 2;
+  }
+  .md\:tracking-tighter,
+  .md\:hover\:tracking-tighter:hover,
+  .md\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .md\:tracking-tight,
+  .md\:hover\:tracking-tight:hover,
+  .md\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .md\:tracking-normal,
+  .md\:hover\:tracking-normal:hover,
+  .md\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .md\:tracking-wide,
+  .md\:hover\:tracking-wide:hover,
+  .md\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .md\:tracking-wider,
+  .md\:hover\:tracking-wider:hover,
+  .md\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .md\:tracking-widest,
+  .md\:hover\:tracking-widest:hover,
+  .md\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
+  .md\:text-right {
+    text-align: right;
+  }
+  .md\:text-center {
+    text-align: center;
+  }
+  .md\:text-left {
+    text-align: left;
+  }
+  .md\:text-justify {
+    text-align: justify;
+  }
+  .md\:decoration-none,
+  .md\:hover\:decoration-none:hover,
+  .md\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .md\:no-underline,
+  .md\:hover\:no-underline:hover,
+  .md\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .md\:underline,
+  .md\:hover\:underline:hover,
+  .md\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .md\:overline,
+  .md\:hover\:overline:hover,
+  .md\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .md\:line-through,
+  .md\:hover\:line-through:hover,
+  .md\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .md\:decoration-solid,
+  .md\:hover\:decoration-solid:hover,
+  .md\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .md\:decoration-double,
+  .md\:hover\:decoration-double:hover,
+  .md\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .md\:decoration-dotted,
+  .md\:hover\:decoration-dotted:hover,
+  .md\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .md\:decoration-dashed,
+  .md\:hover\:decoration-dashed:hover,
+  .md\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .md\:decoration-wavy,
+  .md\:hover\:decoration-wavy:hover,
+  .md\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+  .md\:uppercase,
+  .md\:hover\:uppercase:hover,
+  .md\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .md\:lowercase,
+  .md\:hover\:lowercase:hover,
+  .md\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .md\:capitalize,
+  .md\:hover\:capitalize:hover,
+  .md\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .md\:text-truncate,
+  .md\:hover\:text-truncate:hover,
+  .md\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .md\:text-ellipsis,
+  .md\:hover\:text-ellipsis:hover,
+  .md\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .md\:text-clip,
+  .md\:hover\:text-clip:hover,
+  .md\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .md\:vertical-baseline,
+  .md\:before\:vertical-baseline::before,
+  .md\:after\:vertical-baseline::after {
+    vertical-align: baseline;
+  }
+  .md\:vertical-top,
+  .md\:before\:vertical-top::before,
+  .md\:after\:vertical-top::after {
+    vertical-align: top;
+  }
+  .md\:vertical-middle,
+  .md\:before\:vertical-middle::before,
+  .md\:after\:vertical-middle::after {
+    vertical-align: middle;
+  }
+  .md\:vertical-bottom,
+  .md\:before\:vertical-bottom::before,
+  .md\:after\:vertical-bottom::after {
+    vertical-align: bottom;
+  }
+  .md\:vertical-text-top,
+  .md\:before\:vertical-text-top::before,
+  .md\:after\:vertical-text-top::after {
+    vertical-align: text-top;
+  }
+  .md\:vertical-text-bottom,
+  .md\:before\:vertical-text-bottom::before,
+  .md\:after\:vertical-text-bottom::after {
+    vertical-align: text-bottom;
+  }
+  .md\:vertical-sub,
+  .md\:before\:vertical-sub::before,
+  .md\:after\:vertical-sub::after {
+    vertical-align: sub;
+  }
+  .md\:vertical-super,
+  .md\:before\:vertical-super::before,
+  .md\:after\:vertical-super::after {
+    vertical-align: super;
+  }
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .md\:whitespace-pre {
+    white-space: pre;
+  }
+  .md\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .md\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .md\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .md\:break-words {
+    overflow-wrap: break-word;
+  }
+  .md\:break-all {
+    word-break: break-all;
+  }
+  .md\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:font-thin,
+  .lg\:hover\:font-thin:hover {
+    font-weight: 100;
+  }
+  .lg\:font-extralight,
+  .lg\:hover\:font-extralight:hover {
+    font-weight: 200;
+  }
+  .lg\:font-light,
+  .lg\:hover\:font-light:hover {
+    font-weight: 300;
+  }
+  .lg\:font-normal,
+  .lg\:hover\:font-normal:hover {
+    font-weight: 400;
+  }
+  .lg\:font-medium,
+  .lg\:hover\:font-medium:hover {
+    font-weight: 500;
+  }
+  .lg\:font-semibold,
+  .lg\:hover\:font-semibold:hover {
+    font-weight: 600;
+  }
+  .lg\:font-bold,
+  .lg\:hover\:font-bold:hover {
+    font-weight: 700;
+  }
+  .lg\:font-extrabold,
+  .lg\:hover\:font-extrabold:hover {
+    font-weight: 800;
+  }
+  .lg\:font-black,
+  .lg\:hover\:font-black:hover {
+    font-weight: 900;
+  }
+  .lg\:italic {
+    font-style: italic;
+  }
+  .lg\:not-italic {
+    font-style: normal;
+  }
+  .lg\:text-xs {
+    font-size: 0.75rem;
+  }
+  .lg\:text-sm {
+    font-size: 0.875rem;
+  }
+  .lg\:text-base {
+    font-size: 1rem;
+  }
+  .lg\:text-md {
+    font-size: 1.25rem;
+  }
+  .lg\:text-lg {
+    font-size: 1.5rem;
+  }
+  .lg\:text-xl {
+    font-size: 2rem;
+  }
+  .lg\:text-2xl {
+    font-size: 2.5rem;
+  }
+  .lg\:text-3xl {
+    font-size: 3rem;
+  }
+  .lg\:text-4xl {
+    font-size: 3.5rem;
+  }
+  .lg\:text-5xl {
+    font-size: 4rem;
+  }
+  .lg\:leading-none {
+    line-height: 1;
+  }
+  .lg\:leading-tight {
+    line-height: 1.25;
+  }
+  .lg\:leading-snug {
+    line-height: 1.375;
+  }
+  .lg\:leading-normal {
+    line-height: 1.5;
+  }
+  .lg\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .lg\:leading-loose {
+    line-height: 2;
+  }
+  .lg\:tracking-tighter,
+  .lg\:hover\:tracking-tighter:hover,
+  .lg\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .lg\:tracking-tight,
+  .lg\:hover\:tracking-tight:hover,
+  .lg\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .lg\:tracking-normal,
+  .lg\:hover\:tracking-normal:hover,
+  .lg\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .lg\:tracking-wide,
+  .lg\:hover\:tracking-wide:hover,
+  .lg\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .lg\:tracking-wider,
+  .lg\:hover\:tracking-wider:hover,
+  .lg\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .lg\:tracking-widest,
+  .lg\:hover\:tracking-widest:hover,
+  .lg\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
+  .lg\:text-right {
+    text-align: right;
+  }
+  .lg\:text-center {
+    text-align: center;
+  }
+  .lg\:text-left {
+    text-align: left;
+  }
+  .lg\:text-justify {
+    text-align: justify;
+  }
+  .lg\:decoration-none,
+  .lg\:hover\:decoration-none:hover,
+  .lg\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .lg\:no-underline,
+  .lg\:hover\:no-underline:hover,
+  .lg\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .lg\:underline,
+  .lg\:hover\:underline:hover,
+  .lg\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .lg\:overline,
+  .lg\:hover\:overline:hover,
+  .lg\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .lg\:line-through,
+  .lg\:hover\:line-through:hover,
+  .lg\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .lg\:decoration-solid,
+  .lg\:hover\:decoration-solid:hover,
+  .lg\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .lg\:decoration-double,
+  .lg\:hover\:decoration-double:hover,
+  .lg\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .lg\:decoration-dotted,
+  .lg\:hover\:decoration-dotted:hover,
+  .lg\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .lg\:decoration-dashed,
+  .lg\:hover\:decoration-dashed:hover,
+  .lg\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .lg\:decoration-wavy,
+  .lg\:hover\:decoration-wavy:hover,
+  .lg\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+  .lg\:uppercase,
+  .lg\:hover\:uppercase:hover,
+  .lg\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .lg\:lowercase,
+  .lg\:hover\:lowercase:hover,
+  .lg\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .lg\:capitalize,
+  .lg\:hover\:capitalize:hover,
+  .lg\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .lg\:text-truncate,
+  .lg\:hover\:text-truncate:hover,
+  .lg\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lg\:text-ellipsis,
+  .lg\:hover\:text-ellipsis:hover,
+  .lg\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .lg\:text-clip,
+  .lg\:hover\:text-clip:hover,
+  .lg\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .lg\:vertical-baseline,
+  .lg\:before\:vertical-baseline::before,
+  .lg\:after\:vertical-baseline::after {
+    vertical-align: baseline;
+  }
+  .lg\:vertical-top,
+  .lg\:before\:vertical-top::before,
+  .lg\:after\:vertical-top::after {
+    vertical-align: top;
+  }
+  .lg\:vertical-middle,
+  .lg\:before\:vertical-middle::before,
+  .lg\:after\:vertical-middle::after {
+    vertical-align: middle;
+  }
+  .lg\:vertical-bottom,
+  .lg\:before\:vertical-bottom::before,
+  .lg\:after\:vertical-bottom::after {
+    vertical-align: bottom;
+  }
+  .lg\:vertical-text-top,
+  .lg\:before\:vertical-text-top::before,
+  .lg\:after\:vertical-text-top::after {
+    vertical-align: text-top;
+  }
+  .lg\:vertical-text-bottom,
+  .lg\:before\:vertical-text-bottom::before,
+  .lg\:after\:vertical-text-bottom::after {
+    vertical-align: text-bottom;
+  }
+  .lg\:vertical-sub,
+  .lg\:before\:vertical-sub::before,
+  .lg\:after\:vertical-sub::after {
+    vertical-align: sub;
+  }
+  .lg\:vertical-super,
+  .lg\:before\:vertical-super::before,
+  .lg\:after\:vertical-super::after {
+    vertical-align: super;
+  }
+  .lg\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .lg\:whitespace-pre {
+    white-space: pre;
+  }
+  .lg\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .lg\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .lg\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .lg\:break-words {
+    overflow-wrap: break-word;
+  }
+  .lg\:break-all {
+    word-break: break-all;
+  }
+  .lg\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:font-thin,
+  .xl\:hover\:font-thin:hover {
+    font-weight: 100;
+  }
+  .xl\:font-extralight,
+  .xl\:hover\:font-extralight:hover {
+    font-weight: 200;
+  }
+  .xl\:font-light,
+  .xl\:hover\:font-light:hover {
+    font-weight: 300;
+  }
+  .xl\:font-normal,
+  .xl\:hover\:font-normal:hover {
+    font-weight: 400;
+  }
+  .xl\:font-medium,
+  .xl\:hover\:font-medium:hover {
+    font-weight: 500;
+  }
+  .xl\:font-semibold,
+  .xl\:hover\:font-semibold:hover {
+    font-weight: 600;
+  }
+  .xl\:font-bold,
+  .xl\:hover\:font-bold:hover {
+    font-weight: 700;
+  }
+  .xl\:font-extrabold,
+  .xl\:hover\:font-extrabold:hover {
+    font-weight: 800;
+  }
+  .xl\:font-black,
+  .xl\:hover\:font-black:hover {
+    font-weight: 900;
+  }
+  .xl\:italic {
+    font-style: italic;
+  }
+  .xl\:not-italic {
+    font-style: normal;
+  }
+  .xl\:text-xs {
+    font-size: 0.75rem;
+  }
+  .xl\:text-sm {
+    font-size: 0.875rem;
+  }
+  .xl\:text-base {
+    font-size: 1rem;
+  }
+  .xl\:text-md {
+    font-size: 1.25rem;
+  }
+  .xl\:text-lg {
+    font-size: 1.5rem;
+  }
+  .xl\:text-xl {
+    font-size: 2rem;
+  }
+  .xl\:text-2xl {
+    font-size: 2.5rem;
+  }
+  .xl\:text-3xl {
+    font-size: 3rem;
+  }
+  .xl\:text-4xl {
+    font-size: 3.5rem;
+  }
+  .xl\:text-5xl {
+    font-size: 4rem;
+  }
+  .xl\:leading-none {
+    line-height: 1;
+  }
+  .xl\:leading-tight {
+    line-height: 1.25;
+  }
+  .xl\:leading-snug {
+    line-height: 1.375;
+  }
+  .xl\:leading-normal {
+    line-height: 1.5;
+  }
+  .xl\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .xl\:leading-loose {
+    line-height: 2;
+  }
+  .xl\:tracking-tighter,
+  .xl\:hover\:tracking-tighter:hover,
+  .xl\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .xl\:tracking-tight,
+  .xl\:hover\:tracking-tight:hover,
+  .xl\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .xl\:tracking-normal,
+  .xl\:hover\:tracking-normal:hover,
+  .xl\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .xl\:tracking-wide,
+  .xl\:hover\:tracking-wide:hover,
+  .xl\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .xl\:tracking-wider,
+  .xl\:hover\:tracking-wider:hover,
+  .xl\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .xl\:tracking-widest,
+  .xl\:hover\:tracking-widest:hover,
+  .xl\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
+  .xl\:text-right {
+    text-align: right;
+  }
+  .xl\:text-center {
+    text-align: center;
+  }
+  .xl\:text-left {
+    text-align: left;
+  }
+  .xl\:text-justify {
+    text-align: justify;
+  }
+  .xl\:decoration-none,
+  .xl\:hover\:decoration-none:hover,
+  .xl\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .xl\:no-underline,
+  .xl\:hover\:no-underline:hover,
+  .xl\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .xl\:underline,
+  .xl\:hover\:underline:hover,
+  .xl\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .xl\:overline,
+  .xl\:hover\:overline:hover,
+  .xl\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .xl\:line-through,
+  .xl\:hover\:line-through:hover,
+  .xl\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .xl\:decoration-solid,
+  .xl\:hover\:decoration-solid:hover,
+  .xl\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .xl\:decoration-double,
+  .xl\:hover\:decoration-double:hover,
+  .xl\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .xl\:decoration-dotted,
+  .xl\:hover\:decoration-dotted:hover,
+  .xl\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .xl\:decoration-dashed,
+  .xl\:hover\:decoration-dashed:hover,
+  .xl\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .xl\:decoration-wavy,
+  .xl\:hover\:decoration-wavy:hover,
+  .xl\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+  .xl\:uppercase,
+  .xl\:hover\:uppercase:hover,
+  .xl\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .xl\:lowercase,
+  .xl\:hover\:lowercase:hover,
+  .xl\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .xl\:capitalize,
+  .xl\:hover\:capitalize:hover,
+  .xl\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .xl\:text-truncate,
+  .xl\:hover\:text-truncate:hover,
+  .xl\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .xl\:text-ellipsis,
+  .xl\:hover\:text-ellipsis:hover,
+  .xl\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .xl\:text-clip,
+  .xl\:hover\:text-clip:hover,
+  .xl\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .xl\:vertical-baseline,
+  .xl\:before\:vertical-baseline::before,
+  .xl\:after\:vertical-baseline::after {
+    vertical-align: baseline;
+  }
+  .xl\:vertical-top,
+  .xl\:before\:vertical-top::before,
+  .xl\:after\:vertical-top::after {
+    vertical-align: top;
+  }
+  .xl\:vertical-middle,
+  .xl\:before\:vertical-middle::before,
+  .xl\:after\:vertical-middle::after {
+    vertical-align: middle;
+  }
+  .xl\:vertical-bottom,
+  .xl\:before\:vertical-bottom::before,
+  .xl\:after\:vertical-bottom::after {
+    vertical-align: bottom;
+  }
+  .xl\:vertical-text-top,
+  .xl\:before\:vertical-text-top::before,
+  .xl\:after\:vertical-text-top::after {
+    vertical-align: text-top;
+  }
+  .xl\:vertical-text-bottom,
+  .xl\:before\:vertical-text-bottom::before,
+  .xl\:after\:vertical-text-bottom::after {
+    vertical-align: text-bottom;
+  }
+  .xl\:vertical-sub,
+  .xl\:before\:vertical-sub::before,
+  .xl\:after\:vertical-sub::after {
+    vertical-align: sub;
+  }
+  .xl\:vertical-super,
+  .xl\:before\:vertical-super::before,
+  .xl\:after\:vertical-super::after {
+    vertical-align: super;
+  }
+  .xl\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .xl\:whitespace-pre {
+    white-space: pre;
+  }
+  .xl\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .xl\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .xl\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .xl\:break-words {
+    overflow-wrap: break-word;
+  }
+  .xl\:break-all {
+    word-break: break-all;
+  }
+  .xl\:break-keep {
+    word-break: keep-all;
+  }
+}
+@media (min-width: 1536px) {
+  .xxl\:font-thin,
+  .xxl\:hover\:font-thin:hover {
+    font-weight: 100;
+  }
+  .xxl\:font-extralight,
+  .xxl\:hover\:font-extralight:hover {
+    font-weight: 200;
+  }
+  .xxl\:font-light,
+  .xxl\:hover\:font-light:hover {
+    font-weight: 300;
+  }
+  .xxl\:font-normal,
+  .xxl\:hover\:font-normal:hover {
+    font-weight: 400;
+  }
+  .xxl\:font-medium,
+  .xxl\:hover\:font-medium:hover {
+    font-weight: 500;
+  }
+  .xxl\:font-semibold,
+  .xxl\:hover\:font-semibold:hover {
+    font-weight: 600;
+  }
+  .xxl\:font-bold,
+  .xxl\:hover\:font-bold:hover {
+    font-weight: 700;
+  }
+  .xxl\:font-extrabold,
+  .xxl\:hover\:font-extrabold:hover {
+    font-weight: 800;
+  }
+  .xxl\:font-black,
+  .xxl\:hover\:font-black:hover {
+    font-weight: 900;
+  }
+  .xxl\:italic {
+    font-style: italic;
+  }
+  .xxl\:not-italic {
+    font-style: normal;
+  }
+  .xxl\:text-xs {
+    font-size: 0.75rem;
+  }
+  .xxl\:text-sm {
+    font-size: 0.875rem;
+  }
+  .xxl\:text-base {
+    font-size: 1rem;
+  }
+  .xxl\:text-md {
+    font-size: 1.25rem;
+  }
+  .xxl\:text-lg {
+    font-size: 1.5rem;
+  }
+  .xxl\:text-xl {
+    font-size: 2rem;
+  }
+  .xxl\:text-2xl {
+    font-size: 2.5rem;
+  }
+  .xxl\:text-3xl {
+    font-size: 3rem;
+  }
+  .xxl\:text-4xl {
+    font-size: 3.5rem;
+  }
+  .xxl\:text-5xl {
+    font-size: 4rem;
+  }
+  .xxl\:leading-none {
+    line-height: 1;
+  }
+  .xxl\:leading-tight {
+    line-height: 1.25;
+  }
+  .xxl\:leading-snug {
+    line-height: 1.375;
+  }
+  .xxl\:leading-normal {
+    line-height: 1.5;
+  }
+  .xxl\:leading-relaxed {
+    line-height: 1.625;
+  }
+  .xxl\:leading-loose {
+    line-height: 2;
+  }
+  .xxl\:tracking-tighter,
+  .xxl\:hover\:tracking-tighter:hover,
+  .xxl\:focus\:tracking-tighter:focus {
+    letter-spacing: -0.05em;
+  }
+  .xxl\:tracking-tight,
+  .xxl\:hover\:tracking-tight:hover,
+  .xxl\:focus\:tracking-tight:focus {
+    letter-spacing: -0.025em;
+  }
+  .xxl\:tracking-normal,
+  .xxl\:hover\:tracking-normal:hover,
+  .xxl\:focus\:tracking-normal:focus {
+    letter-spacing: 0em;
+  }
+  .xxl\:tracking-wide,
+  .xxl\:hover\:tracking-wide:hover,
+  .xxl\:focus\:tracking-wide:focus {
+    letter-spacing: 0.025em;
+  }
+  .xxl\:tracking-wider,
+  .xxl\:hover\:tracking-wider:hover,
+  .xxl\:focus\:tracking-wider:focus {
+    letter-spacing: 0.05em;
+  }
+  .xxl\:tracking-widest,
+  .xxl\:hover\:tracking-widest:hover,
+  .xxl\:focus\:tracking-widest:focus {
+    letter-spacing: 0.1em;
+  }
+  .xxl\:text-right {
+    text-align: right;
+  }
+  .xxl\:text-center {
+    text-align: center;
+  }
+  .xxl\:text-left {
+    text-align: left;
+  }
+  .xxl\:text-justify {
+    text-align: justify;
+  }
+  .xxl\:decoration-none,
+  .xxl\:hover\:decoration-none:hover,
+  .xxl\:focus\:decoration-none:focus {
+    text-decoration: none;
+  }
+  .xxl\:no-underline,
+  .xxl\:hover\:no-underline:hover,
+  .xxl\:focus\:no-underline:focus {
+    text-decoration-line: none;
+  }
+  .xxl\:underline,
+  .xxl\:hover\:underline:hover,
+  .xxl\:focus\:underline:focus {
+    text-decoration-line: underline;
+  }
+  .xxl\:overline,
+  .xxl\:hover\:overline:hover,
+  .xxl\:focus\:overline:focus {
+    text-decoration-line: overline;
+  }
+  .xxl\:line-through,
+  .xxl\:hover\:line-through:hover,
+  .xxl\:focus\:line-through:focus {
+    text-decoration-line: line-through;
+  }
+  .xxl\:decoration-solid,
+  .xxl\:hover\:decoration-solid:hover,
+  .xxl\:focus\:decoration-solid:focus {
+    text-decoration-style: solid;
+  }
+  .xxl\:decoration-double,
+  .xxl\:hover\:decoration-double:hover,
+  .xxl\:focus\:decoration-double:focus {
+    text-decoration-style: double;
+  }
+  .xxl\:decoration-dotted,
+  .xxl\:hover\:decoration-dotted:hover,
+  .xxl\:focus\:decoration-dotted:focus {
+    text-decoration-style: dotted;
+  }
+  .xxl\:decoration-dashed,
+  .xxl\:hover\:decoration-dashed:hover,
+  .xxl\:focus\:decoration-dashed:focus {
+    text-decoration-style: dashed;
+  }
+  .xxl\:decoration-wavy,
+  .xxl\:hover\:decoration-wavy:hover,
+  .xxl\:focus\:decoration-wavy:focus {
+    text-decoration-style: wavy;
+  }
+  .xxl\:uppercase,
+  .xxl\:hover\:uppercase:hover,
+  .xxl\:focus\:uppercase:focus {
+    text-transform: uppercase;
+  }
+  .xxl\:lowercase,
+  .xxl\:hover\:lowercase:hover,
+  .xxl\:focus\:lowercase:focus {
+    text-transform: lowercase;
+  }
+  .xxl\:capitalize,
+  .xxl\:hover\:capitalize:hover,
+  .xxl\:focus\:capitalize:focus {
+    text-transform: capitalize;
+  }
+  .xxl\:text-truncate,
+  .xxl\:hover\:text-truncate:hover,
+  .xxl\:focus\:text-truncate:focus {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .xxl\:text-ellipsis,
+  .xxl\:hover\:text-ellipsis:hover,
+  .xxl\:focus\:text-ellipsis:focus {
+    text-overflow: ellipsis;
+  }
+  .xxl\:text-clip,
+  .xxl\:hover\:text-clip:hover,
+  .xxl\:focus\:text-clip:focus {
+    text-overflow: clip;
+  }
+  .xxl\:vertical-baseline,
+  .xxl\:before\:vertical-baseline::before,
+  .xxl\:after\:vertical-baseline::after {
+    vertical-align: baseline;
+  }
+  .xxl\:vertical-top,
+  .xxl\:before\:vertical-top::before,
+  .xxl\:after\:vertical-top::after {
+    vertical-align: top;
+  }
+  .xxl\:vertical-middle,
+  .xxl\:before\:vertical-middle::before,
+  .xxl\:after\:vertical-middle::after {
+    vertical-align: middle;
+  }
+  .xxl\:vertical-bottom,
+  .xxl\:before\:vertical-bottom::before,
+  .xxl\:after\:vertical-bottom::after {
+    vertical-align: bottom;
+  }
+  .xxl\:vertical-text-top,
+  .xxl\:before\:vertical-text-top::before,
+  .xxl\:after\:vertical-text-top::after {
+    vertical-align: text-top;
+  }
+  .xxl\:vertical-text-bottom,
+  .xxl\:before\:vertical-text-bottom::before,
+  .xxl\:after\:vertical-text-bottom::after {
+    vertical-align: text-bottom;
+  }
+  .xxl\:vertical-sub,
+  .xxl\:before\:vertical-sub::before,
+  .xxl\:after\:vertical-sub::after {
+    vertical-align: sub;
+  }
+  .xxl\:vertical-super,
+  .xxl\:before\:vertical-super::before,
+  .xxl\:after\:vertical-super::after {
+    vertical-align: super;
+  }
+  .xxl\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+  .xxl\:whitespace-pre {
+    white-space: pre;
+  }
+  .xxl\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  .xxl\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  .xxl\:break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .xxl\:break-words {
+    overflow-wrap: break-word;
+  }
+  .xxl\:break-all {
+    word-break: break-all;
+  }
+  .xxl\:break-keep {
+    word-break: keep-all;
+  }
+}
 .appearance-none {
   appearance: none;
 }
@@ -96111,6 +96201,42 @@ table caption {
 }
 
 @media (min-width: 640px) {
+  .sm\:select-auto {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+  .sm\:select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .sm\:select-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .sm\:select-all {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }
+  .sm\:touch-auto {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+  .sm\:touch-none {
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+  .sm\:touch-manipulation {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
   .sm\:resize-none {
     resize: none;
   }
@@ -96125,6 +96251,42 @@ table caption {
   }
 }
 @media (min-width: 768px) {
+  .md\:select-auto {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+  .md\:select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .md\:select-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .md\:select-all {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }
+  .md\:touch-auto {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+  .md\:touch-none {
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+  .md\:touch-manipulation {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
   .md\:resize-none {
     resize: none;
   }
@@ -96139,6 +96301,42 @@ table caption {
   }
 }
 @media (min-width: 1024px) {
+  .lg\:select-auto {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+  .lg\:select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .lg\:select-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .lg\:select-all {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }
+  .lg\:touch-auto {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+  .lg\:touch-none {
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+  .lg\:touch-manipulation {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
   .lg\:resize-none {
     resize: none;
   }
@@ -96153,6 +96351,42 @@ table caption {
   }
 }
 @media (min-width: 1280px) {
+  .xl\:select-auto {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+  .xl\:select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .xl\:select-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .xl\:select-all {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }
+  .xl\:touch-auto {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+  .xl\:touch-none {
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+  .xl\:touch-manipulation {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
   .xl\:resize-none {
     resize: none;
   }
@@ -96167,6 +96401,42 @@ table caption {
   }
 }
 @media (min-width: 1536px) {
+  .xxl\:select-auto {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+  .xxl\:select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .xxl\:select-text {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .xxl\:select-all {
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+  }
+  .xxl\:touch-auto {
+    -ms-touch-action: auto;
+    touch-action: auto;
+  }
+  .xxl\:touch-none {
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+  .xxl\:touch-manipulation {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
   .xxl\:resize-none {
     resize: none;
   }
