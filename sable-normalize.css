@@ -31,9 +31,15 @@ aside {
   display: block;
 }
 
-ol, ul {
+ol,
+ul,
+menu {
   margin: 0;
   padding: 0;
+}
+
+menu {
+  list-style: none;
 }
 
 hr {
@@ -45,7 +51,7 @@ hr {
   padding: 0;
 }
 
-abbr[title] {
+abbr:where([title]) {
   text-decoration: underline dotted;
 }
 
@@ -110,6 +116,18 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  outline-offset: -2px;
+}
+
+label {
+  display: inline-block;
 }
 
 legend {
@@ -124,23 +142,21 @@ progress {
   vertical-align: baseline;
 }
 
-[type=search] {
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  appearance: textfield;
-  outline-offset: -2px;
-}
-
-details {
-  display: block;
-}
-
 summary {
   display: list-item;
 }
 
-label {
-  display: inline-block;
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+:disabled {
+  cursor: default;
+}
+
+[hidden] {
+  display: none;
 }
 
 ::-moz-focus-inner {
@@ -176,6 +192,6 @@ label {
 
 ::placeholder, ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: inherit;
   font-size: 1em;
 }
