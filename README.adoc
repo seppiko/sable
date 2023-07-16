@@ -1,11 +1,17 @@
 ++++
-<p align="center">
+<p style="text-align: center; margin: 0 auto;">
   <a href="https://sablecss.seppiko.org" target="_blank">
-    <img alt="SableCSS" src="https://sablecss.seppiko.org/images/logo.svg" width="150" style="max-width: 100%;">
+    <picture>
+      <img alt="SableCSS" src="https://sablecss.seppiko.org/images/logo.svg" width="150" style="max-width: 100%;">
+    </picture>
   </a>
 </p>
 
-<p align="center">
+<h1 style="text-align: center;">
+Seppiko SableCSS CDN
+</h1>
+
+<p style="text-align: center; margin: 0 auto;">
   <a href="https://gitlab.com/seppiko/sable/sablecss/-/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License">
   </a>
@@ -17,8 +23,6 @@
   </a>
 </p>
 ++++
-
-= Seppiko SableCSS CDN
 
 == Used
 
