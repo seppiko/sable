@@ -1,9 +1,7 @@
 ++++
 <p align="center">
   <a href="https://sablecss.seppiko.org" target="_blank">
-    <picture>
-      <img alt="SableCSS" src="https://sablecss.seppiko.org/images/logo.svg" width="150" style="max-width: 100%;">
-    </picture>
+    <img alt="SableCSS" src="https://sablecss.seppiko.org/images/logo.svg" width="150" />
   </a>
 </p>
 
@@ -81,3 +79,9 @@ Seppiko SableCSS CDN
 == Source Code
 
 link:https://gitlab.com/seppiko/sable/sablecss[GitLab]
+
+== Sponsors
+
+++++
+<a href="https://www.jetbrains.com/" target="_blank"><img src="https://seppiko.org/images/jetbrains.png" alt="JetBrians" width="100" /></a>
+++++
