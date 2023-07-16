@@ -68,6 +68,12 @@ pre {
   font-size: 1em;
 }
 
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
 small {
   font-size: 80%;
 }
@@ -91,6 +97,16 @@ sup {
 table {
   text-indent: 0;
   border-color: inherit;
+}
+
+label,
+input {
+  display: table-cell;
+}
+
+caption {
+  text-align: center;
+  caption-side: bottom;
 }
 
 button,
@@ -117,6 +133,7 @@ button,
 [type=submit] {
   -webkit-appearance: button;
   appearance: button;
+  cursor: pointer;
 }
 
 [type=search] {
@@ -188,6 +205,10 @@ fieldset {
   -webkit-appearance: button;
   appearance: button;
   font: inherit;
+}
+
+:focus-visible {
+  outline: none;
 }
 
 ::placeholder, ::-webkit-input-placeholder {
