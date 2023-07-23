@@ -82,8 +82,11 @@ figure {
 
 p {
   line-height: 1.15;
+  margin-top: 0.125rem;
+  margin-bottom: 0.75rem;
+}
+p:first-child {
   margin-top: 0;
-  margin-bottom: 1rem;
 }
 p:last-child {
   margin-bottom: 0;
@@ -144723,11 +144726,6 @@ table caption {
 .hover\:text-shadow-none:hover,
 .focus\:text-shadow-none:focus {
   text-shadow: none;
-}
-
-.text-fill-transparent {
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
 }
 
 .normal-nums {
