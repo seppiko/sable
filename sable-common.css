@@ -39,17 +39,17 @@ a {
 
 h1,
 .h1 {
-  font-size: 2.75rem;
+  font-size: 3rem;
 }
 
 h2,
 .h2 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 h3,
 .h3 {
-  font-size: 2.25rem;
+  font-size: 2.325rem;
 }
 
 h4,
@@ -144640,31 +144640,35 @@ table caption {
 }
 
 .text-md {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .text-lg {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .text-xl {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text-2xl {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 
 .text-3xl {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .text-4xl {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .text-5xl {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
 }
 
 .leading-none {
@@ -145145,25 +145149,28 @@ table caption {
     font-size: 1rem;
   }
   .sm\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .sm\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .sm\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sm\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .sm\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .sm\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .sm\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .sm\:text-6xl {
+    font-size: 3.75rem;
   }
   .sm\:leading-none {
     line-height: 1;
@@ -145426,25 +145433,28 @@ table caption {
     font-size: 1rem;
   }
   .md\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .md\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .md\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .md\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .md\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .md\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .md\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .md\:text-6xl {
+    font-size: 3.75rem;
   }
   .md\:leading-none {
     line-height: 1;
@@ -145707,25 +145717,28 @@ table caption {
     font-size: 1rem;
   }
   .lg\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .lg\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .lg\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .lg\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .lg\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .lg\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .lg\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .lg\:text-6xl {
+    font-size: 3.75rem;
   }
   .lg\:leading-none {
     line-height: 1;
@@ -145988,25 +146001,28 @@ table caption {
     font-size: 1rem;
   }
   .xl\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .xl\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .xl\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .xl\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .xl\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .xl\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .xl\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .xl\:text-6xl {
+    font-size: 3.75rem;
   }
   .xl\:leading-none {
     line-height: 1;
@@ -146269,25 +146285,28 @@ table caption {
     font-size: 1rem;
   }
   .\32 xl\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .\32 xl\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .\32 xl\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .\32 xl\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .\32 xl\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .\32 xl\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .\32 xl\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .\32 xl\:text-6xl {
+    font-size: 3.75rem;
   }
   .\32 xl\:leading-none {
     line-height: 1;
@@ -146550,25 +146569,28 @@ table caption {
     font-size: 1rem;
   }
   .\33 xl\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .\33 xl\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .\33 xl\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .\33 xl\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .\33 xl\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .\33 xl\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .\33 xl\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .\33 xl\:text-6xl {
+    font-size: 3.75rem;
   }
   .\33 xl\:leading-none {
     line-height: 1;
@@ -146831,25 +146853,28 @@ table caption {
     font-size: 1rem;
   }
   .\34 xl\:text-md {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
   .\34 xl\:text-lg {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .\34 xl\:text-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .\34 xl\:text-2xl {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .\34 xl\:text-3xl {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .\34 xl\:text-4xl {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .\34 xl\:text-5xl {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .\34 xl\:text-6xl {
+    font-size: 3.75rem;
   }
   .\34 xl\:leading-none {
     line-height: 1;
