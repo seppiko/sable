@@ -1,17 +1,4 @@
-/*! Seppiko SableCSS Common | MIT License | https://sablecss.seppiko.org */
-h5,
-.h5, h4,
-.h4 {
-  font-weight: 500;
-}
-
-h3,
-.h3, h2,
-.h2, h1,
-.h1 {
-  font-weight: 700;
-}
-
+/*! Seppiko SableCSS Common v1.6.0 | MIT License | https://sablecss.seppiko.org */
 h3,
 .h3, h2,
 .h2, h1,
@@ -26,6 +13,24 @@ h6,
 .h4 {
   margin: 0;
   line-height: 1.25;
+}
+
+h2,
+.h2, h1,
+.h1 {
+  font-weight: 700;
+}
+
+h5,
+.h5, h4,
+.h4, h3,
+.h3 {
+  font-weight: 500;
+}
+
+h6,
+.h6 {
+  font-weight: 400;
 }
 
 a {

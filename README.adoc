@@ -78,7 +78,7 @@ Seppiko SableCSS CDN
 
 == Source Code
 
-link:https://gitlab.com/seppiko/sable/sablecss[GitLab]
+link:https://srl.cx/sablerepo[GitLab]
 
 == Sponsors
 
